@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body_container {
+    position: relative;
+    width: 1539px;
+    height: 1144px;
+    left: 100px;
+    top: 100px; 
+}
+
+.layout_container {
+    position: absolute;
+    width: 1440px;
+    height: 1024px;
+    top: 85px;
+    left: 76.5px;
+    background-color: #F5F5F8;
+    overflow: hidden; 
+}
+
+.layout_container .layout_pic1 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 184px; 
+    top: 4px;
+    transform: rotate(35deg);   
+
+}
+
+.layout_container .layout_pic2 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 591px; 
+    top: 142px;
+    transform: rotate(-15deg);   
+}
+
+.layout_container .layout_pic3 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 1063px; 
+    top: -62px;
+    transform: rotate(15deg);   
+}
+
+.layout_container .layout_pic4 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 1217px; 
+    top: 25px;
+    transform: rotate(-15deg);   
+}
+
+.layout_container .layout_pic5 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 1174px; 
+    top: 426px;
+    transform: rotate(30deg);   
+}
+
+.layout_container .layout_pic6 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 1126px; 
+    top: 850px;
+    transform: rotate(6deg);   
+}
+
+.layout_container .layout_pic7 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 843px; 
+    top: 740px;
+    transform: rotate(-13deg);   
+}
+
+.layout_container .layout_pic8 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 349px; 
+    top: 840px;
+    transform: rotate(0deg);   
+}
+
+.layout_container .layout_pic9 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: -40px; 
+    top: 573px;
+    transform: rotate(-30deg);   
+}
+
+.layout_container .layout_pic10 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 30px; 
+    top: 406px;
+    transform: rotate(15deg);   
+}
+
+.layout_container .layout_logo {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 658px; 
+    top: 405px;
+    transform: rotate(0deg);   
+}
+
+.layout_container .layout_name {
+    position: absolute;
+    width: 405px;
+    height: 54px;
+    left: 517.5px; 
+    top: 469px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 54px;
+    text-align: end;
+}
+
+.layout_container .layout_explanation {
+    position: absolute;
+    width: 480px;
+    height: 56px;
+    left: 480px; 
+    top: 563px;
+    font-family: 'PT Serif', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #858D97;
+}

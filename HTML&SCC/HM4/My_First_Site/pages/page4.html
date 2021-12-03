@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Yauheni" content="First HTML CSS site">
+    <title>Contacts</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="../images/logo.png" alt="logo">
+            </div>
+            <div class="contacts">
+                <h2>Contacts</h2>
+                <p>+375 29 <span>700-20-20</span></p>
+                <div style="position:relative;overflow:hidden;"><a
+                        href="https://yandex.by/maps/26010/kobrin/?utm_medium=mapframe&utm_source=maps"
+                        style="color:#eee;font-size:12px;position:absolute;top:0px;">Кобрин</a><a
+                        href="https://yandex.by/maps/geo/53176481/?ll=24.361991%2C52.215669&source=wizgeo&utm_medium=mapframe&utm_source=maps&z=13"
+                        style="color:#eee;font-size:12px;position:absolute;top:14px;">Кобрин — Яндекс.Карты</a><iframe
+                        src="https://yandex.by/map-widget/v1/-/CCUuU6CS9D" width="260" height="150" frameborder="1"
+                        allowfullscreen="true" style="position:relative;"></iframe>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="navigation">
+        <div class="container">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="page1.html">About</a></li>
+                <li><a href="page2.html">Services</a></li>
+                <li><a href="page3.html">Gallery</a></li>
+                <li><a href="page4.html">Contacts</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="main">
+        <div class="container">
+            <h1 class="title">Contacts</h1>
+            <form enctype="multipart/form-data" method="post" class="field">
+                <div class="contact_form">
+                    <input class="size" type="text" placeholder="First Name" name="firstName">
+                    <input class="size" type="tel" placeholder="Phone (format 29 xxx-xx-xx)" name="phone"
+                        pattern="29 [0-9]{3}-[0-9]{2}-[0-9]{2}">
+                </div>
+                <h1>Message:</h1>
+                <div class="contact_form">
+                    <textarea name="message" id="textarea" placeholder="What do you want!"></textarea>
+                </div>
+                <div class="send">
+                    <button class="contact_button" type="submit">Отправить</button>
+                    <button class="contact_button" type="reset">Очистить</button>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="logo">
+                <img src="../images/logo.png" alt="logo">
+            </div>
+            <p>Curabitur egestas interdum mi nec pharetra. Fusce lobortis, leo sed placerat varius, justo felis
+                vestibulum elit,
+                vitae condimentum justo risus in nisi. Aenean eu faucibus quam, quis tempus mauris. Nunc sit amet ex
+                egestas
+                dui ultrices gravida in id purus. Phasellus cursus, mi a sagittis congue, sem orci bibendum metus, at
+                faucibus
+                lacus urna et neque. Nulla quis dolor eros. Donec eget tortor consectetur, interdum massa id, ultrices
+                nisi.
+                Aliquam quis tortor id purus luctus bibendum eget non quam. Aenean massa eros, iaculis id tincidunt nec,
+                dapibus eu lorem.
+                Etiam ac quam enim. Quisque volutpat dolor in lacus blandit, nec ornare elit vehicula. Donec tempor
+                aliquam vestibulum.
+                Ut tincidunt vel nisl quis laoreet.</p>
+            <div class="contacts">
+                <h2>Contacts</h2>
+                <p>+375 29 <span>700-20-20</span></p>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

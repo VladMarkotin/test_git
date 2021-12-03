@@ -1,0 +1,336 @@
+
+@media (max-width: 1550px) {
+    
+    .container-portfolio .header-portfolio .logo-portfolio {
+        left: 35%;
+    }
+    
+    .container-portfolio .header-portfolio .logo-subtitle {
+        left: 36.5%;
+    }
+
+    .container-portfolio .backlighting-portfolio {
+        width: 8.5%;
+        left: 66.5%;
+    }
+
+}
+
+@media (max-width: 1300px) {
+    
+    .container-portfolio .header-portfolio .logo-portfolio {
+        left: 32%;
+    }
+    
+    .container-portfolio .header-portfolio .logo-subtitle {
+        left: 33.5%;
+    }
+
+    .container-portfolio {
+        height: 1100px;
+    }
+
+    .container-portfolio .main-portfolio {
+        height: 60%;
+    }
+
+    .container-portfolio .main-portfolio .picture {
+        height: 45%;
+    }
+
+    .container-portfolio .backlighting-portfolio {
+        width: 8.5%;
+        left: 69%;
+    }
+   
+}
+
+@media (max-width: 1100px) {
+
+    .container-portfolio .header-portfolio .logo-portfolio {
+        left: 28%;
+    }
+    
+    .container-portfolio .header-portfolio .logo-subtitle {
+        left: 30%;
+    }
+
+    .container-portfolio {
+        height: 950px;
+    }
+
+    .container-portfolio .main-portfolio {
+        height: 65%;
+    }
+
+    .header-fixed .logo {
+        font-size: 100%; 
+        left: 15%;
+        top: 35%;  
+    }    
+    
+    .header-fixed:hover .logo {
+        font-size: 100%; 
+        left: 15%;
+        top: 35%;
+    }
+    
+    .header-fixed .nav {
+        width: 200px;
+        top: 37%;
+        left: 62%;
+    }
+    
+    .header-fixed .nav ul {
+        justify-content: center;
+    }
+    
+    .header-fixed .nav li {
+        display: inline-block; 
+    }
+    
+    .header-fixed ul a {
+        font-size: 60%;
+        padding: 0 0.5vw;
+    }
+    .header-fixed:hover ul a {
+        font-size: 60%;
+        padding: 0 0.5vw;
+    }
+    
+    .header-fixed .nav li a:hover {
+        border-bottom: 0.2vw solid #fed136;
+    } 
+
+}
+
+@media (max-width: 1024px) {
+    
+    .container-portfolio .header-portfolio .logo-portfolio {
+        font-size: 210%;
+        left: 31%;
+    }
+    
+    .container-portfolio .header-portfolio .logo-subtitle {
+        font-size: 95%;
+        left: 32%;
+    }
+
+    .container-portfolio {
+        height: 850px;
+    }
+    
+    .header-fixed .nav {
+        top: 35%;
+        left: 55%;
+    }
+
+    .container-portfolio .backlighting-portfolio {
+        width: 9.6%;
+        left: 63%;
+    }
+
+}
+
+
+@media (max-width: 775px) {
+
+    .header-fixed .nav {
+        top: 30%;
+        left: 55%;
+    }
+    
+    .container-portfolio .header-portfolio .logo-portfolio {
+        left: 25%;
+    }
+
+    .header-fixed .logo {
+        top: 30%;  
+    }    
+    
+    .header-fixed:hover .logo {
+        top: 30%;
+    }
+    
+    .container-portfolio .header-portfolio .logo-subtitle {
+        left: 26.5%;
+        top: 15%;
+    }
+
+    .container-portfolio {
+        height: 750px;
+    }
+       
+    .header-fixed ul a {
+        font-size: 40%;
+        padding: 0 0.5vw;
+    }
+    .header-fixed:hover  ul a {
+        font-size: 40%;
+        padding: 0 0.5vw;
+    }
+
+    .container-portfolio .backlighting-portfolio {
+        width: 9.6%;
+        left: 67%;
+    }
+   
+}
+
+@media (max-width: 645px) {
+
+    .header-fixed .nav {
+        left: 50%;
+    }
+
+    .container-portfolio .backlighting-portfolio:hover ~ .header-portfolio .logo-portfolio {
+        top: 8%;
+        }
+    
+    .container-portfolio .header-portfolio .logo-portfolio {
+        left: 28%;
+        top: 10%;
+        font-size: 150%; 
+    }
+    
+    .container-portfolio .header-portfolio .logo-subtitle {
+        left: 29%;
+        top: 15%;
+        font-size: 70%;
+    }
+
+    .container-portfolio {
+        height: 650px;
+    }
+    
+    .header-fixed ul a {
+        font-size: 40%;
+        padding: 0 0.5vw;
+    }
+    .header-fixed:hover ul a {
+        font-size: 40%;
+        padding: 0 0.5vw;
+    }
+
+    .container-portfolio .backlighting-portfolio {
+        width: 10.5%;
+        left: 64%;
+    }
+    
+}
+
+@media (max-width: 485px) {
+
+    .header-fixed .logo {
+        top: 35%;
+        font-size: 50%;  
+    }    
+    
+    .header-fixed:hover .logo {
+        top: 35%;
+        font-size: 50%; 
+    }
+
+    .container-portfolio .header-fixed {
+        height: 6%; 
+    }
+    
+    .container-portfolio .header-fixed:hover {
+        height: 6%;  
+    }
+
+    .header-fixed .nav {
+        left: 40%;
+        top: 12%;
+    }
+
+    .header-fixed ul a {
+        font-size: 40%;
+        padding: 0 0.5vw;
+    }
+    .header-fixed:hover  ul a {
+        font-size: 40%;
+        padding: 0 0.5vw;
+    }
+
+    .container-portfolio .backlighting-portfolio:hover ~ .header-portfolio .logo-portfolio {
+        top: 6%;
+        }
+    
+    .container-portfolio .header-portfolio .logo-portfolio {
+        left: 22%;
+        top: 8%;
+    }
+    
+    .container-portfolio .header-portfolio .logo-subtitle {
+        left: 23%;
+        top: 14%;
+    }
+
+    .container-portfolio {
+        height: 600px;
+    }
+
+    .container-portfolio .main-portfolio .picture .item-name {
+        font-size: 80%;
+    }
+    
+    .container-portfolio .main-portfolio .picture .item-brand {
+        font-size: 65%;
+    }
+
+    .container-portfolio .backlighting-portfolio {
+        width: 12.5%;
+        left: 60%;
+    }
+       
+}
+
+@media (max-width: 385px) {
+
+    .header-fixed .nav {
+        left: 30%;
+        top: 15%;
+    }
+
+    .header-fixed ul a {
+        font-size: 40%;
+        padding: 0 0.5vw;
+    }
+    .header-fixed:hover  ul a {
+        font-size: 40%;
+        padding: 0 0.5vw;
+    }
+    
+    .container-portfolio .header-portfolio .logo-portfolio {
+        left: 26%;
+        top: 8%;
+        font-size: 100%;
+    }
+    
+    .container-portfolio .header-portfolio .logo-subtitle {
+        left: 27.5%;
+        top: 14%;
+        font-size: 45%;
+    }
+
+    .container-portfolio {
+        height: 500px;
+    }
+   
+    .container-portfolio .main-portfolio .picture .item-name {
+        font-size: 60%;
+    }
+    
+    .container-portfolio .main-portfolio .picture .item-brand {
+        font-size: 50%;
+    }
+
+    .container-portfolio .backlighting-portfolio {
+        width: 15%;
+        left: 55%;
+    }
+      
+}
+
+

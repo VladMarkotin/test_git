@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang=ru>
+<head>	
+	<meta charset="UTF-8">
+	<meta name="Yauheni" content="author">
+	<meta name="description" content="Homework №2">
+	<title>My first site</title>
+	<style>
+		@import url("styleUl.css");
+		* {
+			font-family: sans-serif arial;
+			margin: 0;
+			padding: 0;
+			font-size: 18px;
+		}
+		.nav li{
+			display:  inline-block;
+			font-size: 24px; 
+			font-family: verdana;
+			font-weight: 600;
+			text-shadow: 0 0 3px #808080;
+			margin-top: 30px;
+			margin-right: 20px;
+		}
+		.nav li::before {
+			content:  "";
+			color : black;
+		}
+		.nav li:first-child::before {
+			content:  "";
+		}
+		.nav a{
+			color: rgb(0, 255, 255);
+			background-color: #87CEEB;
+			padding: 20px;
+			border-radius: 50%;
+			border: 1px solid rgba(	255, 0, 0, 0.8);
+		}
+		.list1 {
+			display: inline-block;
+		}
+		.list2 {
+			float:  left;
+			margin-left:  400px;
+		}
+		.listType {
+			list-style-type: square;
+		}
+		.listPosition {
+			list-style-position: inside;
+		}
+		.listStyleImage {
+			list-style-type: none;
+			list-style-image: url(icons8.svg.svg);
+		}
+		.listType2 {
+			list-style-type: lower-greek;
+		}
+		.clear {
+			clear:  both;
+		}
+	</style>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<nav class="nav" style="text-align: center;">
+		<ul>
+			<li><a href="#about">О компании</a></li>
+			<li><a href="#catalog">Каталог</a></li>
+			<li><a href="#service">Услуги</a></li>
+			<li><a href="#article">Статьи</a></li>
+			<li><a href="#contact">Контакты</a></li>
+			<li><a href="#gallery">Галерея</a></li>
+			<li><a href="#portfolio">Портфолио</a></li>
+		</ul>
+	</nav>
+	<fieldset style="margin-left:10px; margin-right: 10px; margin-top: 50px; padding-left:10px ;">
+		<legend >Домашняя работа 2</legend>
+		<h1 class="red" >Главный заголовок</h1>
+		<p> <div class="bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dignissim laoreet tristique. Vestibulum imperdiet arcu non lobortis consequat. Maecenas mi ligula, cursus sed ante ac, posuere facilisis odio. Aliquam nec vestibulum ante. Cras ac luctus enim. Sed libero leo, imperdiet ac eros sit amet, fermentum luctus nibh. Ut hendrerit elit rutrum massa varius, nec malesuada sapien fermentum.</div> <br /> <div class="emphasis">Vivamus scelerisque erat placerat accumsan pretium. Suspendisse eget mi consequat, ullamcorper ipsum eget, ullamcorper erat. Sed vitae auctor ligula. Phasellus sollicitudin arcu ut pretium egestas.</div> <p></p>
+		<p> <br /> <span class="font">Morbi vitae feugiat nunc.</span> <br /> <span style="text-decoration: line-through;">Donec nec porta dolor.</span> <br /> <span style="text-decoration: underline;">Fusce in ipsum interdum, euismod quam eget, dictum eros.</span> <br /> <span style="text-decoration: underline wavy;">Donec elementum dui vitae lorem rutrum condimentum. </span> <br /> <span style="text-decoration: underline double red;">Fusce imperdiet, metus sed tempus porta, metus ligula scelerisque diam, porta bibendum nunc nulla at nulla.</span> <br /> <span style="text-transform: capitalize;"> Etiam gravida venenatis elit eget efficitur.</span> <br /> <span style="text-transform: uppercase;">Praesent ultrices augue vel massa porta sagittis.</span> <br /> <span style="display: block; text-align: right;">Donec quis convallis odio. Morbi vitae dolor ac mi cursus venenatis quis a augue. Sed mollis diam ut lacus ornare, ut sollicitudin nisl mattis.</span></p>
+		<h2 style="text-align: center; color: lime; padding: 5px; background-color: grey;">Заголовок 2 уровня</h2>
+		<p class="line-height greenyellow">Sed vitae condimentum lacus. Sed ut orci egestas, bibendum orci lacinia, iaculis nisl. Cras ex turpis, ultricies a pulvinar volutpat, venenatis sit amet eros. In sed diam quam. Nunc et commodo nunc. Mauris eleifend ante eu risus posuere ultrices. Nullam et blandit velit. Donec at pulvinar risus.</p>
+		<p class="margin">Nunc porttitor quam quis posuere lobortis. Cras eget mattis risus, eget sagittis urna. Sed eget velit consequat, luctus ipsum et, volutpat justo. Aliquam sapien turpis, venenatis scelerisque nulla id, viverra consequat libero. Sed at dignissim libero. Praesent ornare sapien eu neque eleifend consequat. Nulla ultrices tempor mi at euismod. Maecenas pellentesque, libero a varius faucibus, purus justo rutrum mauris, et malesuada ligula lorem quis nulla. Suspendisse porta fringilla sapien porttitor finibus. Maecenas eget malesuada mauris, id feugiat dui. Donec blandit augue in bibendum porttitor. Quisque ex sapien, bibendum vitae congue sed, euismod at lorem. Nunc luctus dolor augue, ut pretium odio mattis id. Fusce vel erat in ante laoreet volutpat. Sed ut fermentum enim. Suspendisse eleifend ornare vehicula.</p>
+		<h3 style="text-align:center; color: rgba(218, 165, 32, 0.8);">Заголовок 3</h3>
+		<p class="padding">Aliquam tincidunt nisi ut purus viverra, sed mattis diam elementum. Aenean non elit augue. Aliquam cursus tempus lacus in luctus. Duis venenatis metus urna. Duis egestas ac massa a lacinia. Phasellus sed ante luctus ex hendrerit volutpat. Phasellus malesuada arcu at dapibus lacinia.</p>
+		<p id="iden"><div><b>ПРИВЕТ!!!</b></div><div id="class">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id accumsan arcu. Cras vel ipsum ac lacus ultricies maximus nec a quam. Sed sollicitudin eros eget ligula aliquet tristique. Proin laoreet varius mi non faucibus.<span> Pellentesque semper, urna at semper laoreet, neque dolor porta massa, a accumsan diam sapien eget ligula. Cras mollis enim vitae nisi iaculis, nec porttitor ipsum porta.</span><em> Suspendisse </em> mollis tortor sapien, at semper arcu consectetur a. Praesent pulvinar mauris quis ex ultricies, sed cursus ex ultricies. Mauris finibus magna quis massa cursus, eget ultrices sapien lobortis. Maecenas non nisl ac ex efficitur tempor sit amet quis odio. In sagittis elit et enim varius varius. Vestibulum vestibulum erat sapien, non consequat massa dapibus quis.</div><p></p>
+		<p class="pointer">Наведи на меня указатель!</p>
+		<p class="hidden">А вот и Я!!!</p>
+		<h4>Заголовок 4</h4>
+		<p>Абзац 1</p>
+		<p>Абзац 2</p>
+		<h1 style="color: #4682B4">Списки</h1>
+		<ul class="list1 list2 listType" style="color: red;">
+			<li>Привет!</li>
+			<li>Здарова))</li>
+			<li>Как дела?</li>
+		</ul>
+		<ol class="list1 list2 listType2 listPosition " style="color: green;">
+			<li>Машина</li>
+			<li>Конь</li>
+			<li>Педали</li>
+		</ol>
+		<ul class="list1 list2  listPosition" style="color: orange;">
+			<li> Большой
+				<ol>
+					<li>Первый <br />
+					и третий</li>
+					<li>Второй</li>
+				</ol>
+			</li>
+			<li>Малый</li>
+			<li>Малый</li>
+		</ul>
+		<ul class="clear listStyleImage" style="display: block; margin-left: auto; margin-right: auto; width: 0%;">
+			<li>Раз</li>
+			<li>Два</li>
+			<li>Взяли</li>
+		</ul>
+	</fieldset>
+</body>
+</html>
+

@@ -1,0 +1,56 @@
+h1 {
+	text-align: center;
+	margin-top: 50px;
+	font-size: 26px;
+	margin-bottom: 30px;
+}	
+.red {
+	color: red;
+	text-shadow: 2px -2px 8px black;
+	padding:  5px;
+}
+.greenyellow {
+	color: rgba(255, 0, 0, 0.7);
+	background-color: greenyellow;
+}
+.bold {
+	font-weight: bolder;
+}
+.emphasis {
+	font-style: oblique;
+}
+.font {
+	font-size = 25px;
+	font-style: normal;
+	font-family: cursive;
+	font-weight: 500;
+	font-strech: expanded;
+}
+.line-height {
+	line-height: 2.5;
+}
+.margin {
+	margin-top: 10px;
+	margin-right: 5px;
+	margin-left: 15px;
+	margin-right: 20px;
+	padding: 2px;
+	border: 1px solid darkgray;
+}
+.padding {
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 15px;
+	padding-left: 20px;
+	background-color: wheat;
+}
+p {
+	margin-bottom: 20px;
+	font-size: 18px;
+	line-height: 20px;
+}
+
+h2, h3, h4, h5, h6 {
+	font-size: 21px;
+	margin-bottom: 30px;
+}

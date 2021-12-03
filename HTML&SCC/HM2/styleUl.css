@@ -1,0 +1,43 @@
+ul, ol {
+	border-bottom: 20px;
+	border-left: 20px;
+}
+
+#iden {
+	color: olive;
+	padding: 15px;
+	background-color: #C0C0C0;
+}
+#class span {
+	font-weight:  normal;
+	color: orange;
+	font-family: mv boli;
+}
+div > b {
+	color: red;
+	font-family: ALGERIAN;
+	font-style: oblique;
+	font-weight: bold;
+}
+.hidden {
+	display: none;
+}
+.pointer:hover + .hidden {
+	display: block;
+	background-color: gold;
+}
+.pointer:hover {
+	background-color: lime;
+	float: left;
+}
+span + em {
+	color: green;
+}
+h4 ~ p {
+	color: rosybrown;
+}
+p + h4 {
+	text-align: center;
+	color: sandybrown;
+	text-decoration: underline double sandybrown;
+}

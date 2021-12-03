@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header,
+.main,
+.footer {
+    padding: 30px;
+}
+
+.header {
+    background-color: #ededed;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+h1 {
+    margin-bottom: 40px;
+    line-height: 42px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 80%;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.align-left {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.header .logo img {
+    width: 200px;
+    overflow: hidden;
+}
+
+.header .logo,
+.header .contacts {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header .contacts {
+    /* margin-left: 40px; */
+    float: right;
+    text-align: right;
+}
+
+.header .contacts h3 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.header .contacts p {
+    margin-bottom: 0;
+}
+
+.header .contacts p span {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navigation {
+    background-color: lightgreen;
+}
+
+.navigation ul {
+    list-style-type: none;
+}
+
+.navigation li {
+    display: inline-block;
+}
+
+.navigation a {
+    display: inline-block;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px 30px;
+}
+
+.navigation a:hover {
+    background-color: rgb(64, 192, 64);
+    color:rgb(20, 29, 20);
+}
+
+.main .gallery_list {
+    background-color: #ededed;
+    padding: 20px 20px 20px 24px;
+}
+
+.main .gallery_list img {
+    display: inline-block;
+    width: calc(25% - 4px - 20px);
+    margin: 10px;
+}
+
+.main .contact_form .field {
+    margin-bottom: 20px;
+}
+
+.main .contact_form input {
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.main .contact_form .button {
+    text-transform: uppercase;
+    font-size: 18px;
+    background-color: green;
+    color: #fff;
+    border: 0;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+.footer p {
+    clear: both;
+}
+
+

@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.about{
+    background-color: #ededed;
+}
+
+.about__list{
+    border: 2px solid green;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1152px;
+}
+
+.about__item{
+    display: flex;
+    width: calc(50% - 1.5px);
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.about__item:nth-child(even){
+    flex-direction: row-reverse;
+    border-left: 3px solid #ccc;
+    border-right: 0;
+    margin-left: auto;
+}
+
+.about__item:nth-child(odd){
+    text-align: right;
+    border-right: 3px solid #ccc;
+}
+
+.about__item:nth-child(odd) img{
+    margin-right: -75px;
+   
+}
+
+.about__item:nth-child(even) img{
+    margin-left: -75px;
+}
+
+.about__item img{
+    border-radius: 50%;
+}

@@ -1,0 +1,202 @@
+.container-contact {
+    max-width: 1280px;
+    width: 80%; 
+    height: 770px;
+    background-color: #222222;
+    margin: auto;
+    padding: auto;
+    position: relative;
+    margin-top: 10px;
+}
+
+.container-contact .bi-map {
+    margin-left: 50%;
+    margin-top: 4%;
+    height: 80%;
+    width:50%;
+    background-image: url(../images/Map-Image.png);
+    background-size: 100% 100%;
+}
+
+.container-contact .backlighting-contact {
+    display: inline-block;
+    position: absolute;
+    width: 6.5%;
+    height: 48%;
+    top: -35%;
+    left: 79.5%;
+    z-index: 2;
+}
+
+.container-contact .backlighting-contact:hover ~ .header-contact .logo-contact {
+    color: red;
+    top: 11%;
+    transition: 1s;
+    }
+
+.container-contact .header-contact {
+    display: inline-block;
+}
+
+.container-contact .header-contact .logo-contact {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 210%;
+    position: absolute;
+    left: calc(50% - 9%);
+    top: 13%;
+    text-transform: uppercase;
+    color: white;
+    transition: 1s;
+}
+
+.container-contact .header-contact .logo-subtitle {
+    font-family: 'droidSerif-italic';
+    font-size: 90%;
+    color: #777777;
+    position: absolute;
+    left: calc(50% - 10.4%);
+    top: 19%;
+}
+
+.container-contact .footer-contact {
+    height: 12%;
+    background-color: #fff;
+}
+
+.container-contact .item-data {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+}
+
+.container-contact .item-data .item-letter {
+    width: 47%;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    margin: 1%;
+    display: inline-block;
+}
+
+.container-contact .item-data #message-id {
+    position: absolute;
+    width: 50%;
+    height: 185px;
+    border-radius: 5px;
+    margin: 1%;
+    left: 50%;
+}
+
+.container-contact .item-data .item-button {
+    width: 30%;
+    height: 66px;
+    border-radius: 5px;
+    background-color: #fed136;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: auto;
+    margin-top: 3%;
+    position: relative;
+    z-index: 3;
+}
+
+.container-contact .item-data .item-button:hover {
+    color: red;
+    text-shadow: 0 0 5px rgb(236, 82, 82);
+}
+
+.container-contact .item-data .item-message {
+    color: black;
+}
+
+.container-contact .footer-contact .copyright {
+    font-family: 'Roboto Slab', serif;
+    font-size: 80%;
+    font-weight: 400;
+    color: #606060;
+    padding-top: 3%;
+    margin-left: 18%;
+    
+}
+
+.container-contact .footer-contact .item-social {
+    position: absolute;
+    left: 42.5%;
+    top: 92.5%;
+    z-index:3;
+}
+
+.container-contact .footer-contact .social {
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+}
+
+.container-contact .footer-contact .tw {
+    background-image: url(../images/icon-twitter.png);
+}
+
+.container-contact .footer-contact .fc {
+    background-image: url(../images/icon-facebook.png);
+}
+
+.container-contact .footer-contact .p {
+    background-image: url(../images/icon-pointer.png);
+}
+
+.container-contact .footer-contact .g {
+    background-image: url(../images/icon-google.png);
+}
+
+.container-contact .footer-contact .tw:hover {
+    background-image: url(../images/hover-icon-twitter.png);
+}
+
+.container-contact .footer-contact .fc:hover {
+    background-image: url(../images/hover-icon-facebook.png);
+}
+
+.container-contact .footer-contact .p:hover {
+    background-image: url(../images/hover-icon-pointer.png);
+}
+
+.container-contact .footer-contact .g:hover {
+    background-image: url(../images/hover-icon-google.png);
+}
+
+.container-contact .item-data .item-button:hover {
+    animation: bigger-button 0.5s forwards;
+}
+
+@keyframes bigger-button {
+    from {
+        font-size: 18px;
+    }
+
+    to {
+        font-size: 22px
+    }
+}
+
+.container-contact .item-data .item-button:active {
+    animation: rotate-button 0.5s forwards;
+}
+
+@keyframes rotate-button {
+    from {
+        font-size: 22px;
+        transform: rotateX(0);
+    }
+
+    to {
+        font-size: 18px;
+        transform: rotateX(360deg);
+    }
+}

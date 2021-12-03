@@ -1,0 +1,207 @@
+.container-team {
+    max-width: 1280px;
+    width: 80%; 
+    height: 980px;
+    background-color: #fff;
+    margin: auto;
+    padding: auto;
+    position: relative;
+    margin-top: 10px;
+}
+
+.container-team .header-team {
+    display: inline-block;
+}
+
+.container-team .backlighting-team {
+    display: inline-block;
+    position: absolute;
+    width: 64%;
+    height: 23%;
+    top: 26%;
+    left: 18%;
+    z-index: 2;
+}
+
+.container-team .backlighting-team:hover ~ .header-team .logo-team {
+     
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 210%;
+    position: absolute;
+    left: calc(50% - 14.6%);
+    top: 8.5%;
+    text-transform: uppercase;
+    color: red;
+    transition: 1s;
+    }
+
+.container-team .header-team .logo-team {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 210%;
+    position: absolute;
+    left: calc(50% - 14.6%);
+    top: 10%;
+    text-transform: uppercase;
+    color: black;
+    transition: 1s;
+}
+
+.container-team .header-team .logo-subtitle {
+    font-family: 'droidSerif-italic';
+    font-size: 90%;
+    color: #777777;
+    position: absolute;
+    left: calc(50% - 10.4%);
+    top: 15%;
+}
+
+.container-team .main-team {
+    width: 72%;
+    height: 43.5%;
+    margin: auto;
+    margin-top: 18%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-team .main-team .item-photo {
+    display: flex; 
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.container-team .main-team .item-name {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 120%;
+    color: #000;
+    margin-top: 1.5%;
+    position: relative;
+}
+
+.container-team .main-team .item-name span {
+    width: 27%;
+}
+
+.container-team .main-team .item-name-title {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'droidSerif-italic';
+    font-size: 120%;
+    line-height: 160%;
+    color: #777777;
+    text-align: center;
+    position: relative;
+}
+
+.container-team .main-team .item-name-title span {
+    width: 27%;
+}
+
+.container-team .main-team .global-social {
+    display: flex;
+    position: relative;
+}
+
+.container-team .main-team .global-social .global-social1 {
+    width: 37%;
+    display: flex;
+    justify-content: center;
+}
+
+.container-team .main-team .global-social .global-social2 {
+    width: 28%;
+    display: flex;
+    justify-content: center;
+}
+
+.container-team .main-team .global-social .global-social3 {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+}
+
+.container-team .main-team .global-social .item-social {
+    position: relative;
+    width: 150px;
+    height: 45px;
+    display: inline-block;
+}
+
+.container-team .main-team .item-social .item-twbg {
+    width: 50px;
+    height: 45px;
+    position: relative;
+}
+
+.container-team .main-team .item-social .item-twbg img {
+    position: absolute;
+}
+
+.container-team .main-team .item-social .item-tw img {
+    position: absolute;
+    top: 25%;
+    left: 7%;
+}
+
+.container-team .main-team .item-social .item-fcbg img {
+    position: absolute;
+    top: 0;
+    left: 33%;
+}
+
+.container-team .main-team .item-social .item-fc img {
+    position: absolute;
+    top: 25%;
+    left: 42.5%;
+}
+
+.container-team .main-team .item-social .item-prbg img {
+    position: absolute;
+    top: 0;
+    left: 67%;
+}
+
+.container-team .main-team .item-social .item-pr img {
+    position: absolute;
+    top: 25%;
+    left: 75%;
+}
+
+.container-team .main-team .item-social .item-twbg a,
+.container-team .main-team .item-social .item-tw a,
+.container-team .main-team .item-social .item-fcbg a,
+.container-team .main-team .item-social .item-fc a,
+.container-team .main-team .item-social .item-prbg a,
+.container-team .main-team .item-social .item-pr a {
+    width: 100%;
+} 
+
+.container-team .main-team .item-description {
+    margin-top: 5%;
+    font-family: 'Roboto Slab', serif;
+    font-size: 100%;
+    line-height: 120%;
+    font-weight: 400;
+    color: #777777;
+    text-align: center;
+    position: relative;
+}
+
+.container-team .main-team .item-logos {
+    width:95%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20%;
+    position: relative;
+}
+
+.container-team .main-team .item-logos .evanto img {
+    margin-top: 4%;
+    height: 70%;
+}

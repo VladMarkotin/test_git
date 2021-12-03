@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    padding: 30px 100px 100px 100px;
+    background-color: rgba(127, 255, 0, 0.5);
+}
+
+#login {
+    display: inline-block; 
+}
+
+#login img {
+    width: 30%;
+    height: 30%;
+    margin-left: 100px;
+}
+
+.psd {
+    padding-bottom: 20px;
+    padding-left: calc(100% - 5%);
+}
+
+.nav {
+    padding-top: 20px;
+}
+
+.nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.nav li {
+    display: inline-block;
+}
+
+.nav li a {
+    display: inline-block;  
+}
+
+.main {
+    background-color: rgb(170, 170, 170);
+
+}
+
+.main .article {
+    text-align: center;
+}
+
+.footer img {
+    width: 100%;
+}

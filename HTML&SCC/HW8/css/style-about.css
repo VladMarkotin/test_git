@@ -1,0 +1,169 @@
+.container-about {
+    max-width: 1280px;
+    width: 80%; 
+    height: 1670px;
+    background-color: #fff;
+    margin: auto;
+    padding: auto;
+    position: relative;
+    margin-top: 10px;
+}
+
+.container-about .header-about {
+    display: inline-block;
+}
+
+.container-about .backlighting-about {
+    display: inline-block;
+    position: absolute;
+    width: 4%;
+    height: 20%;
+    top: 0%;
+    left: 73%;
+    z-index: 2;
+}
+
+.container-about .backlighting-about:hover ~ .header-about .logo-about {
+    color: red;
+    transition: 1s;
+    top: 7%;
+    }
+
+.container-about .header-about .logo-about {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 210%;
+    position: absolute;
+    left: calc(50% - 7.25%);
+    top: 8.5%;
+    text-transform: uppercase;
+    color: black;
+    transition: 1s;
+}
+
+.container-about .header-about .logo-subtitle {
+    font-family: 'droidSerif-italic';
+    font-size: 90%;
+    color: #777777;
+    position: absolute;
+    left: calc(50% - 10.4%);
+    top: 12%;
+}
+
+.container-about .main-about {
+    width: 100%;
+    height: 76.9%;
+    margin-top: 20%;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.container-about .main-about .name-left {
+    width: 40%;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-about .main-about .name-left .item-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 120%;
+    line-height: 150%;
+    margin-top: 74%;
+}
+
+.container-about .main-about .name-left .item-title:first-child {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 120%;
+    line-height: 150%;
+    margin-top: 0;
+}
+
+.container-about .main-about .name-left .item-title span {
+    text-transform: uppercase;
+}
+
+.container-about .main-about .name-left .item-description {
+    width: 60%;
+    margin-left: 40%;
+    font-family: 'Roboto Slab', serif;
+    font-size: 89%;
+    line-height: 160%;
+    font-weight: 400;
+    color: #777777;
+}
+
+.container-about .main-about .item-picture .line-picture {
+    width: 1px;
+    height: 72%;
+    background-color: #f1f1f1;
+    position: absolute;
+    left: 50%;
+    z-index: 0;
+}
+
+.container-about .main-about .item-picture {
+    width: 14.3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;   
+}
+
+.container-about .main-about .item-picture img {
+    position: relative;
+}
+
+.container-about .main-about .item-picture .story {
+    position: absolute;
+    top: 85%;
+    left: 45.5%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 110%;
+    line-height: 140%;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.container-about .main-about .name-right {
+    width: 40%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-about .main-about .name-right .item-title:first-child {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 120%;
+    line-height: 150%;
+    margin-top: 53%;
+}
+
+.container-about .main-about .name-right .item-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 120%;
+    line-height: 150%;
+    margin-top: 70%;
+}
+
+.container-about .main-about .name-right .item-title span {
+    text-transform: uppercase;
+}
+
+.container-about .main-about .name-right .item-description {
+    width: 62%;
+    margin-right: 38%;
+    font-family: 'Roboto Slab', serif;
+    font-size: 90%;
+    line-height: 160%;
+    font-weight: 400;
+    color: #777777;
+}
+
+
+

@@ -1,0 +1,307 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header,
+.main,
+.footer {
+    padding: 30px;
+}
+
+h1 {
+    font-size: 24px;
+    line-height: 24px;
+    padding: 10px 10px 10px 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.best .title {
+    color: red;
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+#button {
+    display: inline-block;
+    background: transparent;
+    border: 0;
+}
+
+.align-left {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 200px;
+}
+
+.opacity {
+    opacity: 1;
+}
+
+body.best {
+    background-image: url(../images/image10.jpg);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.header .contacts {
+    float: right;
+    text-align: right;
+}
+
+.best .logo img {
+    width: 200px;
+    opacity: 0.8;
+}
+
+.header .logo img {
+    width: 200px;
+}
+
+.header .logo,
+.header .contacts {
+    display: inline-block;
+}
+
+.header .contacts h2 {
+    font-size: 28px;
+    background-color: rgb(40, 187, 255);
+    box-shadow: 0 0 10px red;
+    text-align: center;
+}
+
+.header .contacts p {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.header .contacts p span {
+    color: #000;
+    font-size: 26px;
+    font-weight: bold;
+    text-shadow: 0 0 10px rgb(15, 90, 253,);
+}
+
+.best .navigation {
+    background-color: rgba(40, 187, 255, 0.8);
+    font-weight: bold;
+}
+
+.navigation {
+    background-color: rgb(40, 187, 255);
+    font-weight: bold;
+}
+
+.navigation ul {
+    list-style-type: none;    
+}
+
+.navigation li {
+    display: inline-block;
+}
+
+.navigation a {
+    display: inline-block;
+    font-size: 26px;
+    padding: 20px 40px;
+    text-decoration: none;
+    color: #000;
+}
+
+.navigation a:hover {
+    background-color: red;
+}
+
+.best .main {
+    background: linear-gradient(to right bottom, rgba(209, 204, 204, .8), rgba(40, 187, 255, .8))
+}
+
+.main {
+    background: linear-gradient(to right bottom, rgb(209, 204, 204), rgb(40, 187, 255))
+}
+
+.main p {
+    font-size: 18px;
+    line-height: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main h2 {
+    font-size: 21px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.main .container .gallery h1 {
+    text-align: center;
+}
+
+.main .gallery_list {
+    padding: 20px 20px 20px 24px;
+
+}
+
+.main .gallery_list img {
+    display: inline-block;
+    margin: 10px;
+    width: calc(25% - 20px - 4px);
+    height: 200px; 
+}
+
+.main .field{
+    margin-bottom: 10px;
+}
+
+.main .field .size {
+    display: block;
+    width: 20%;
+    height: 30px;
+    margin-bottom: 5px;
+}
+
+.main .contact_form .size:hover {
+    display: inline-block;
+    background: linear-gradient(to right top, red, lime);
+    font-size: 18px;
+}
+
+.main .contact_form .size:hover::-moz-placeholder {
+    color: #0000FF;
+    font-weight: 700;
+}
+
+.main .contact_form .size:hover::-webkit-input-placeholder {
+    color: #0000FF;
+    font-weight: 700;
+}
+
+.main .contact_form .size:hover:-ms-input-placeholder {
+    color: #0000FF;
+    font-weight: 700;
+}
+
+.main .contact_form textarea:hover {
+    display: inline-block;
+    background: linear-gradient(to right top, red, lime);
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.main .contact_form textarea:hover::-moz-placeholder {
+    color: #0000FF;
+    font-weight: 700;
+}
+
+.main .contact_form textarea:hover::-webkit-input-placeholder {
+    color: #0000FF;
+    font-weight: 700;
+}
+
+.main .contact_form textarea:hover:-ms-input-placeholder {
+    color: #0000FF;
+    font-weight: 700;
+}
+
+.main .send .contact_button {
+    width: 20%;
+    height: 30px;
+}
+
+.main .send .contact_button:hover {
+    display: inline-block;
+    background: linear-gradient(to right top, red, lime);
+    font-size: 16px;
+    color: #0000FF;
+    font-weight: 700;
+}
+
+.main .container .promo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+}
+
+.main .container .promo h2 {
+    font-size: 26px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.main .container .promo form {
+    display: inline-block;
+    margin-left: auto;
+}
+
+.main .container .promo img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100px;
+}
+
+.main .container .promo a {
+    display: inline-block;
+    text-decoration: none;
+    /* border: 1px solid black; */
+    border-radius: 50%; 
+    overflow: hidden;
+    box-shadow: 2px 2px 2px black;  
+    border: 0;
+    vertical-align: middle;
+
+}
+
+.main #textarea {
+    width: 40%;
+    height: 240px;
+}
+
+.best .footer {
+    clear: both;
+    color: #fff;
+    background-color: rgba(73, 73, 73, .8);
+}
+
+.footer {
+    clear: both;
+    color: #fff;
+    background-color: rgb(73, 73, 73);
+}
+
+.footer .logo,
+.footer .contacts {
+    display: inline-block;
+}
+
+.footer .logo img {
+    float: left;
+    width:100px;
+}
+
+.footer .contacts {
+    text-align: right;
+    float:right;
+}
+
+.footer .container>p {
+    display: inline-block;
+    vertical-align: top;
+    width: calc(100% - 200px - 100px);
+    margin-left: 15px;
+}
+
+.footer .contacts p span {
+    font-size: 20px;
+    font-weight: bold;
+}
+

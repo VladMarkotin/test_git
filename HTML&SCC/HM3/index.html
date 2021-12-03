@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="Vasiuk Yauheni" content="Homework 3 Tables">
+	<title>Homework 3 Tables</title>
+	<style>
+		.table,
+		.table td, th {
+			border:  1px solid black;
+			border-collapse:  collapse;
+			padding: 2px 20px;
+		}
+		.thead { 
+			background-color: rgba(128, 128, 0, 0.6);
+		}
+		table:hover tbody tr:nth-child(even) {
+			background-color: rgba(127, 255, 212, 0.8);	
+
+		}
+		.tfoot {
+			background-color: rgba(176, 224, 230, 0.9);
+			text-align: right;
+
+		}
+	</style>
+</head>
+<body>
+	<table class="table">
+		<thead class="thead">
+		<tr><th rowspan="3">Ученик</th>
+			<th colspan="6">Переиод обучения</th></tr>
+		<tr><th colspan="2">I четверть</th>
+			<th colspan="2">II четверть</th>
+			<th colspan="2">III четверть</th>
+		</tr>
+		<tr><th>Информатика</th>
+			<th>Математика</th>
+			<th>Информатика</th>
+			<th>Математика</th>
+			<th>Информатика</th>
+			<th>Математика</th>
+		</tr>
+		</thead>
+		<tbody>
+		<tr><td>Иванов Дима</td>
+			<td>4</td>
+			<td>4</td>
+			<td>5</td>
+			<td>5</td>
+			<td>5</td>
+			<td>3</td>
+		</tr>
+		<tr><td>Петров Михаил</td>
+			<td>4</td>
+			<td>3</td>
+			<td>5</td>
+			<td>4</td>
+			<td>3</td>
+			<td>5</td>
+		</tr>
+		<tr><td>Голубев Петр</td>
+			<td>5</td>
+			<td>5</td>
+			<td>5</td>
+			<td>4</td>
+			<td>4</td>
+			<td>5</td>
+		</tr>
+		<tr><td>Гордеев Иван</td>
+			<td>4</td>
+			<td>4</td>
+			<td>3</td>
+			<td>5</td>
+			<td>4</td>
+			<td>5</td>
+		</tr>
+		</tbody>
+		<tfoot class="tfoot">
+		<tr><th colspan="5">Итого(средняя оценка)</th><th>4</th><th>4.5</th></tr>
+		</tfoot>
+	</table>
+</body>
+</html>

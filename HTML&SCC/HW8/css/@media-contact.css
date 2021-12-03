@@ -1,0 +1,303 @@
+@media (max-width: 1300px) {
+
+    .container-contact .header-contact .logo-contact {
+        left: 39%;
+    }
+    
+    .container-contact .header-contact .logo-subtitle {
+        left: 37%;
+    }
+
+    .container-contact .item-data #message-id {
+        height: 177px;
+    }
+
+    .container-contact .footer-contact .copyright {
+        margin-left: 15%;  
+    }
+    
+    .container-contact .footer-contact .item-social {
+        left: 42.5%;
+        top: 91%;
+    }
+
+    .container-contact .backlighting-contact {
+        width: 7.5%;
+        left: 85%;
+    }
+}
+
+@media (max-width: 1100px) {
+
+    .container-contact .header-contact .logo-contact {
+        left: 39%;
+    }
+    
+    .container-contact .header-contact .logo-subtitle {
+        left: 37%;
+    }
+
+    .container-contact .item-data #message-id {
+        height: 175px;
+    }
+
+    .container-contact .footer-contact .copyright {
+        padding-top: 4%;
+        margin-left: 10%;  
+    }
+    
+    .container-contact .footer-contact .item-social {
+        left: 42.5%;
+        top: 90%;
+    }
+
+    .container-contact .backlighting-contact {
+        width: 7.5%;
+        left: 85%;
+    }
+
+}
+
+@media (max-width: 1024px) {
+
+    .container-contact .header-contact .logo-contact {
+        left: 37%;
+        font-size: 180%;
+    }
+    
+    .container-contact .header-contact .logo-subtitle {
+        left: 36.5%;
+        font-size: 70%;
+    }
+
+    .container-contact .item-data #message-id {
+        height: 170px;
+    }
+
+    .container-contact .item-data .item-button {
+        width: 40%;
+        height: 50px;
+        font-size: 12px;
+        margin-top: 5%;
+    }
+
+    @keyframes bigger-button {
+        from {
+            font-size: 12px;
+        }
+    
+        to {
+            font-size: 15px
+        }
+    }
+
+    @keyframes rotate-button {
+        from {
+            font-size: 15px;
+            transform: rotateX(0);
+        }
+    
+        to {
+            font-size: 12px;
+            transform: rotateX(360deg);
+        }
+    }
+
+    .container-contact .footer-contact .copyright {
+        padding-top: 4%;
+        margin-left: 10%;
+        font-size: 60%;  
+    }
+    
+    .container-contact .footer-contact .item-social {
+        left: 37.5%;
+        top: 89%;
+    }
+
+    .container-contact .backlighting-contact {
+        width: 8%;
+        left: 81%;
+    }
+}
+
+@media (max-width: 775px) {
+
+    .container-contact .header-contact .logo-contact {
+        left: 37%;
+        font-size: 150%;
+    }
+    
+    .container-contact .header-contact .logo-subtitle {
+        left: 36%;
+        font-size: 60%;
+        top: 18%;
+    }
+
+    .container-contact .item-data #message-id {
+        height: 166px;
+    }
+
+    .container-contact .footer-contact .copyright {
+        padding-top: 6%;
+        margin-left: 10%;
+        font-size: 50%;  
+    }
+    
+    .container-contact .footer-contact .item-social {
+        transform: scale(0.8);
+        left: 35%;
+        top: 89%;
+    }
+
+    .container-contact .backlighting-contact {
+        width: 7.5%;
+        left: 83%;
+    }
+}
+
+@media (max-width: 645px) {
+
+    .container-contact .header-contact .logo-contact {
+        left: 35%;
+    }
+    
+    .container-contact .header-contact .logo-subtitle {
+        left: 34%;
+    }
+
+    .container-contact .item-data #message-id {
+        height: 163px;
+    }
+
+    .container-contact .item-data .item-button {
+        width: 40%;
+    }
+
+    .container-contact .footer-contact .copyright {
+        padding-top: 8%;
+        font-size: 40%;  
+    }
+    
+    .container-contact .footer-contact .item-social {
+        transform: scale(0.6);
+        left: 30%;
+        top: 88%;
+    }
+
+    .container-contact .backlighting-contact {
+        width: 8.5%;
+        left: 82.5%;
+    }
+}
+
+@media (max-width: 485px) {
+
+    .container-contact .header-contact .logo-contact {
+        left: 35%;
+        font-size: 100%;
+    }
+    
+    .container-contact .header-contact .logo-subtitle {
+        left: 34%;
+        font-size: 40%;
+        top: 16.5%;
+    }
+
+    .container-contact .item-data {
+        top: 20%;
+    }
+
+    .container-contact .item-data .item-letter {
+        width: 100%;
+    }
+
+    .container-contact .item-data #message-id {
+        width: 100%;
+        height: 170px;
+        left: 0%;
+        top: 72%;
+        border: none;
+    }
+
+    .container-contact .item-data .item-button {
+        width: 100%;
+        top: 180px;
+    }
+
+    .container-contact .footer-contact .copyright {
+        padding-top: 11%;
+        font-size: 5px;  
+    }
+    
+    .container-contact .footer-contact .item-social {
+        transform: scale(0.5);
+        left: 27%;
+        top: 87.5%;
+    }
+
+    .container-contact .backlighting-contact {
+        width: 8.5%;
+        left: 82.5%;
+    }
+}
+
+@media (max-width: 385px) {
+
+    .container-contact {
+        height: 385px;
+    }
+
+    .container-contact .backlighting-contact:hover ~ .header-contact .logo-contact {
+        top: 10%;
+        }
+
+    .container-contact .header-contact .logo-contact {
+        left: 33%;
+        top: 11%;
+        font-size: 100%;
+    }
+    
+    .container-contact .header-contact .logo-subtitle {
+        left: 32%;
+        font-size: 40%;
+        top: 16%;
+    }
+
+    .container-contact .item-data {
+        top: 20%;
+    }
+
+    .container-contact .item-data .item-letter {
+        width: 100%;
+        height: 25px;
+    }
+
+    .container-contact .item-data #message-id {
+        width: 100%;
+        height: 85px;
+        left: 0%;
+        top: 60%;
+        border: none;
+    }
+
+    .container-contact .item-data .item-button {
+        width: 100%;
+        top: 95px;
+    }
+
+    .container-contact .footer-contact .copyright {
+        padding-top: 7%;
+        font-size: 4px;  
+    }
+    
+    .container-contact .footer-contact .item-social {
+        transform: scale(0.4);
+        left: 21%;
+        top: 88.5%;
+    }
+
+    .container-contact .backlighting-contact {
+        width: 9.5%;
+        left: 81%;
+    }
+}

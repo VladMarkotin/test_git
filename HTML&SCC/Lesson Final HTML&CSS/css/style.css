@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container-page-1 {
+    width: 1400px;
+    height: 2560px;
+    margin: auto;
+    position: relative;
+    border: 1px solid;
+}
+
+.container-page-1 .item-header1 {
+    position: relative;
+    height: 80px;
+    background-color: black;
+}
+
+.container-page-1 .item-header1 .class {
+    padding-top: 1.8%;
+    padding-left: 15%;
+    font-size: 18pt;
+    font-weight: bold;
+    color: white;
+}
+
+.container-page-1 .item-header1 .home {
+    width:20px;
+    height: 19px;
+    position: absolute;
+    top: 33%;
+    left: 51.5%;
+}
+
+.container-page-1 .item-header1 .home {
+    background-image: url(../images/Home-Icon.png) ;
+    background-size: cover;
+}
+
+.container-page-1 .item-header1 .item-nav {
+    width: 20%;
+    display: inline-block;
+    position: absolute;
+    top: 30%;
+    left: 55%;
+}
+
+.container-page-1 .item-header1 .item-nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.container-page-1 .item-header1 .item-nav a {
+    text-decoration: none;
+    font-size: 16pt;
+    font-weight: 400;
+    padding: 5px;
+    color: White;
+}
+
+.container-page-1 .item-nav1 {
+    width: 29.3%;
+    display: inline-block;
+    position: absolute;
+    top: 4%;
+    left: 51%;
+}
+
+.container-page-1 .item-nav1 ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.container-page-1 .item-nav1 a {
+    text-decoration: none;
+    font-size: 14pt;
+    font-weight: 400;
+    padding: 5px;
+    color: #555555;
+}
+
+
+.container-page-1 .item-main1 .title1 {
+    font-size: 36pt;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 1%;
+}
+
+.container-page-1 .item-main1 .date {
+    text-decoration: none;
+    font-size: 14pt;
+    font-weight: 600;
+    color: #555555;
+    margin-left: 42%;
+}
+
+.container-page-1 .item-image1 {
+    display: flex;
+    justify-content: center;
+}
+
+.container-page-1 .item-image1 img {
+    margin-top: 3%;
+    width: 330px;
+    height: 285px; 
+}
+
+.container-page-1 .item-article1 {
+    position: relative;
+    width:67.5%;
+    margin: auto;
+    margin-top: 3%;
+}
+
+.container-page-1 .item-article1 .article {
+    font-size: 16pt;
+    line-height: 20pt;
+    font-weight: 400;
+    color: #555555;   
+}
+
+.container-page-1 .item-article1 .read-more {
+    position: absolute;
+    top: 120%;
+
+}
+
+.container-page-1 .item-article1 .read-more .read {
+    width: 400%;
+    position: absolute;
+    top: 0%;
+    left: 130%;
+    text-decoration: none;
+    font-size: 14pt;
+    font-weight: 600;
+    color: #555555;
+}
+
+.container-page-1 .item-footer1 {
+    width: 67.5%;
+    height: 5%;
+    margin: auto;
+    margin-top: 4.8%;
+    position: relative;
+}
+
+.container-page-1 .item-footer1 .item-nav {
+    width: 20%;
+    display: inline-block;
+    position: absolute;
+    top: 60%;
+    left: 0%;  
+}
+
+.container-page-1 .item-footer1 .item-nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.container-page-1 .item-footer1 .item-nav a {
+    text-decoration: none;
+    font-size: 10pt;
+    font-weight: 400;
+    padding: 5px;
+    color: #555555;
+}
+
+.container-page-1  .item-footer1 .copyright {
+    font-family: 'Roboto Slab', serif;
+    font-size: 80%;
+    font-weight: 400;
+    color: #606060;
+    padding-top: 8%;
+    margin-left: 77%;
+    
+}
+
+.container-page-1  .item-footer1 .item-social {
+    position: absolute;
+    left: 40%;
+    top: 45%;
+}
+
+.container-page-1  .item-footer1 .social {
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+}
+
+.container-page-1  .item-footer1 .tw {
+    background-image: url(../images/icon-twitter.png);
+}
+
+.container-page-1  .item-footer1 .fc {
+    background-image: url(../images/icon-facebook.png);
+}
+
+.container-page-1  .item-footer1 .p {
+    background-image: url(../images/icon-pointer.png);
+}
+
+.container-page-1  .item-footer1 .g {
+    background-image: url(../images/icon-google.png);
+}
+
+.container-page-1  .item-footer1 .tw:hover {
+    background-image: url(../images/hover-icon-twitter.png);
+}
+
+.container-page-1  .item-footer1 .fc:hover {
+    background-image: url(../images/hover-icon-facebook.png);
+}
+
+.container-page-1  .item-footer1 .p:hover {
+    background-image: url(../images/hover-icon-pointer.png);
+}
+
+.container-page-1  .item-footer1 .g:hover {
+    background-image: url(../images/hover-icon-google.png);
+}
+
+

@@ -1,0 +1,273 @@
+@media (max-width: 7680px) {
+  .header-fixed .retractible-menu-icon,
+  input[type="checkbox"] {
+    right: 19%;
+  }
+
+  .retractible-menu {
+    width: 41.18vw;
+  }
+
+  .retractible-menu a {
+    font-size: 85px;
+  }
+
+  .header-fixed .retractible-menu-icon span:nth-child(2) {
+    top: 34.3%;
+  }
+}
+
+@media (max-width: 5760px) {
+  .header-fixed .retractible-menu-icon,
+  input[type="checkbox"] {
+    right: 17%;
+  }
+
+  .retractible-menu {
+    width: 38.45vw;
+  }
+
+  .retractible-menu a {
+    font-size: 65px;
+  }
+
+  .header-fixed .retractible-menu-icon span:nth-child(2) {
+    top: 34.3%;
+  }
+}
+
+@media (max-width: 3840px) {
+  .header-fixed .retractible-menu-icon,
+  input[type="checkbox"] {
+    right: 13.5%;
+  }
+
+  .retractible-menu {
+    width: 32.85vw;
+  }
+
+  .retractible-menu a {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 2880px) {
+  .header-fixed .retractible-menu-icon,
+  input[type="checkbox"] {
+    right: 12%;
+  }
+
+  .retractible-menu {
+    width: 27.35vw;
+  }
+}
+
+@media (max-width: 2560px) {
+  .header-fixed .retractible-menu-icon,
+  input[type="checkbox"] {
+    right: 10.5%;
+  }
+
+  .retractible-menu {
+    width: 24.55vw;
+  }
+}
+
+@media (max-width: 2400px) {
+  .header-fixed .retractible-menu-icon,
+  input[type="checkbox"] {
+    right: 9%;
+  }
+
+  .retractible-menu {
+    width: 22.84vw;
+  }
+}
+
+@media (max-width: 2140px) {
+  .header-fixed .retractible-menu-icon,
+  input[type="checkbox"] {
+    right: 7.5%;
+  }
+
+  .retractible-menu {
+    width: 19.55vw;
+  }
+
+  .retractible-menu a {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 1920px) {
+  .header-fixed .retractible-menu-icon,
+  input[type="checkbox"] {
+    right: 6%;
+  }
+
+  .retractible-menu {
+    width: 16.2vw;
+  }
+
+  .retractible-menu a {
+    font-size: 25px;
+  }
+
+  .header-fixed .retractible-menu-icon span:nth-child(2) {
+    top: 34.3%;
+  }
+}
+
+@media (max-width: 1750px) {
+  .header-fixed .retractible-menu-icon,
+  input[type="checkbox"] {
+    right: 4.5%;
+  }
+
+  .retractible-menu {
+    width: 12.84vw;
+  }
+
+  .retractible-menu a {
+    font-size: 25px;
+  }
+
+  .header-fixed .retractible-menu-icon span:nth-child(2) {
+    top: 34.3%;
+  }
+}
+
+@media (max-width: 1550px) {
+  .header-fixed .retractible-menu-icon,
+  input[type="checkbox"] {
+    right: 3%;
+  }
+
+  .retractible-menu {
+    width: 9.9vw;
+  }
+
+  .retractible-menu a {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .retractible-menu a {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .retractible-menu a {
+    font-size: 15px;
+  }
+
+  .retractible-menu {
+    width: 10vw;
+  }
+}
+
+@media (max-width: 775px) {
+  .retractible-menu a {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 645px) {
+  .retractible-menu a {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 485px) {
+  .retractible-menu a {
+    font-size: 8px;
+  }
+
+  .header-fixed .retractible-menu-icon span:nth-child(2) {
+    top: 35%;
+}
+
+}
+
+@media (max-width: 385px) {
+  .retractible-menu a {
+    font-size: 6px;
+  }
+}
+
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+  .header-fixed {
+    height: 0;
+  }
+
+  .header-fixed:hover {
+    height: 0;
+  }
+
+  .container-portfolio .header-fixed {
+    height: 0; 
+}
+
+.container-portfolio .header-fixed:hover {
+    height: 0;  
+} 
+
+  .header-fixed .logo {
+    visibility: hidden;
+  }
+
+  .header-fixed:hover .logo {
+    visibility: hidden;
+  }
+
+
+  .header-fixed ul a {
+    visibility: hidden;
+}
+.header-fixed:hover  ul a {
+    visibility: hidden;
+}
+
+.container-services .backlighting-services {
+    width: 0;
+    height: 0;
+}
+
+.container-portfolio .backlighting-portfolio {
+    width: 0;
+    height: 0;
+}
+
+.container-about .backlighting-about {
+    width: 0;
+    height: 0;
+}
+
+.container-team .backlighting-team {
+    width: 0;
+    height: 0;
+}
+
+}
+
+@media screen and (max-width: 1024px) and (orientation: portrait) {
+
+.header-fixed .retractible-menu-icon {
+    z-index: 0;
+}
+
+.header-fixed .retractible-menu-icon span{
+    visibility: hidden;
+} 
+
+.header-fixed input[type="checkbox"] {
+    z-index: -1;
+}
+
+.header-fixed input[type="checkbox"]:checked ~ .retractible-menu {
+    right: -35vw;
+}
+
+}

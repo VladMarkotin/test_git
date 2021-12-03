@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="Yauheni Vasiuk" content="Homework 4 Forms">
+	<title>Homework 4 Forms</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+	<form enctype="multipart/form-data" method="post" class="form">
+		<fieldset >
+		<legend class="legend">Общая информация</legend>	
+		<p>Фамилия:</p>
+		<input type="text" name="secondName" placeholder="Фамилия" class="field" required>
+		<br/>
+		<p>Имя:</p>
+		<input type="text" name="firstName" placeholder="Имя" class="field">
+		<br/>
+		<p>Отчество:</p>
+		<input type="text" name="thirdName" placeholder="Отчество" class="field">
+		<br/>
+		<p>Дата рождения:</p>
+		<input type="date" name="bithday" class="field date" required>
+		<br/>
+		<p>Пол:</p>
+		<input type="radio" name="gender" value="man" checked > - Мужской
+		<input type="radio" name="gender" value="woman" class="field"> - Женский
+		<br/>
+		<p>Фото:</p>
+		<input type="file" name="Photo">
+		<br/>
+		<br/>
+		<button type="submit">Отправить</button>
+		<button type="reset">Очистить</button>
+		</fieldset>
+	</form>
+
+	<form enctype="multipart/form-data" method="post" class="form">
+		<fieldset>
+		<legend class="legend">Контактная информация</legend>	
+		<p>Телефон:</p>
+		<input type="tel" name="phone" placeholder="Телефон" class="field" required>
+		<br/>
+		<p>Электронная почта:</p>
+		<input type="email" name="email" placeholder="@email" class="field">
+		<br/>
+		<p>Адрес проживания:</p>
+		<input type="text" name="address" placeholder="Адрес" class="field">
+		<br/>
+		<p>Город проживания:</p>
+		<select name="cityOfResidence" size="4" multiple class="select">
+			<option disabled>Ваш город</option>
+			<option selected value="Minsk" class="label">Минск</option>
+			<option value="Brest" class="label">Брест</option>
+			<option value="Gomel" class="label">Гомель</option>
+			<option value="Vitebsk" class="label">Витебск</option>
+			<option value="Mogilev" class="label">Могилев</option>
+			<option value="Grodno" class="label">Гродно</option>
+		</select>
+		<br/>
+		<button type="submit">Отправить</button>
+		<button type="reset">Очистить</button>
+		</fieldset>
+	</form>
+
+	<form method="post" class="form">
+		<fieldset>
+		<legend class="legend">Образование</legend>	
+		<p>Высшее:</p>
+		<input type="text" name="high" placeholder="Наименование учреждения" class="field">
+		<br/>
+		<p>Среднее:</p>
+		<input type="text" name="middle" placeholder="Наименование учреждения" class="field">
+		<br/>
+		<p>Дополнительное:</p>
+		<input type="text" name="additional" placeholder="Направление" class="field">
+		<br/>
+		<p>Курсы:</p>
+		<input type="text" name="courses" placeholder="Курсы" class="field">
+		<br/>
+		<br/>
+		<button type="submit">Отправить</button>
+		<button type="reset">Очистить</button>
+		</fieldset>
+	</form>
+
+	<form method="post" class="form">
+		<fieldset>
+		<legend class="legend">Карьера (в порядке убывания)</legend>	
+		<p>Место работы 1:</p>
+		<input type="text" name="job1" placeholder="Организация, должность" class="field">
+		<br/>
+		<p>Место работы 2:</p>
+		<input type="text" name="job2" placeholder="Организация, должность" class="field">
+		<br/>
+		<p>Место работы 3:</p>
+		<input type="text" name="job3" placeholder="Организация, должность" class="field">
+		<br/>
+		<p>О себе: (кратко)</p>
+		<textarea name="about" style="width: 30%; height: 200px; " class="textarea">
+		</textarea>
+		<br/>
+		<br/>
+		<button type="submit">Отправить</button>
+		<button type="reset">Очистить</button>
+		</fieldset>
+	</form>
+	<footer>
+	<p style="background-color: lightYellow; border: 1px solid black; border-collapse: collapse; font-size: 20px; font-weight: 500; text-align: right;"> <span style="color: red; font-weight: bold;">Васюк Е.Ю.<sup>&reg;</sup></span> Выполнил: <time datetime="2021-10-04" style="font-weight: bolder;">11.03.2021</time></p>
+	</footer>
+</body>
+</html>

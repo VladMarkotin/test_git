@@ -1,0 +1,235 @@
+
+@font-face {
+    font-family: "Wisdom Script Regular";
+    font-style: normal;
+    font-weight: normal;
+    src: local("../fonts/Wisdom Script Regular"),
+      url("../fonts/Wisdom Script AJ.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: "droidSerif-italic";
+    src: local("../fonts/droidserifitalic"),
+      url("../fonts/droidserifitalic.woff") format("woff");
+  }
+  
+  @media (max-width: 1550px) {
+  
+    .container-home .header .logo {
+      left: 45%;
+    }
+  
+    .container-home .nav {
+      left: 29%;
+      top: 15%;
+    }
+  
+    .container-home .main .tagline {
+      left: 32.5%;
+    }
+  
+    .container-home .main .welcome {
+      left: 15%;
+    }
+  
+    .container-home .main button {
+      left: 40%;
+      
+    }.container-home .backlighting-home {
+      left: 29%;
+    }
+  }
+  
+  @media (max-width: 1300px) {
+  
+    .container-home .nav {
+      left: 25%;
+    }
+  
+    .container-home .main .tagline {
+      left: 30%;
+    }
+  
+    .container-home .main .welcome {
+      left: 11%;
+    }
+  
+    .container-home .main button {
+      left: 38%;
+      
+    }.container-home .backlighting-home {
+      left: 25.4%;
+      height: 30%;
+    }
+  }
+  
+  @media (max-width: 1100px) {
+  
+    .container-home .nav {
+      left: 22.2%;
+    }
+  
+    .container-home .main .tagline {
+      left: 26%;
+      font-size: 3vw;
+    }
+  
+    .container-home .main .welcome {
+      left: 13.5%;
+      font-size: 5vw;
+    }
+  
+    .container-home .main button {
+      left: 37%;
+      
+    }.container-home .backlighting-home {
+      left: 22.6%;
+      width: 6%;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+  
+    .container-home .nav {
+      left: 19%;
+    }
+  
+    .container-home .main button {
+      left: 35.5%;
+      
+    }.container-home .backlighting-home {
+      left: 19.8%;
+    }
+  }
+  
+  @media (max-width: 775px) {
+  
+    .container-home .header .logo {
+      font-size: 3vw;
+    }
+  
+    .container-home .nav {
+      left: 11%;
+      top: 10%;
+    }
+  
+    .container-home .nav ul {
+      justify-content: center;
+    }
+  
+    .container-home .nav ul a {
+      font-size: 1vw;
+      padding: 0 1vw;
+      margin: 0 1vw;
+    }
+  
+    .container-home .nav ul a:hover {
+      border-bottom: 0.2vw solid #fed136;
+    }
+  
+    .container-home .main .tagline {
+      top: 35%;
+    }
+  
+    .container-home .main .welcome {
+      top: 40%;
+    }
+  
+    .container-home .main button {
+      top: 65%;
+      left: 32%;
+      
+    }.container-home .backlighting-home {
+      left: 25%;
+      height: 20%;
+    }
+  }
+  
+  @media (max-width: 645px) {
+  
+    .container-home .nav {
+      left: 3.2%;
+      top: 10%;
+    }
+  
+    .container-home .main .tagline {
+      top: 30%;
+    }
+  
+    .container-home .main .welcome {
+      top: 35%;
+    }
+  
+    .container-home .main button {
+      top: 60%;
+      left: 30%;
+      
+    }.container-home .backlighting-home {
+      left: 24.5%;
+    }
+  }
+  
+  @media (max-width: 485px) {
+  
+    .container-home {
+      height: 350px;
+    }
+  
+    .container-home .header .logo {
+      font-size: 2vw;
+      top: 5%;
+    }
+  
+    .container-home .nav {
+      left: -14.2%;
+      top: 8%;
+    }
+
+    .container-home .main .tagline {
+        left: 23.4%;
+    }
+
+    .container-home .main .welcome {
+        left: 12%;
+      }
+  
+    .container-home .main button {
+      width: 35%;
+      height: 15%;
+      top: 65%;
+      left: 32%;
+    }
+  
+
+    .container-home .main button a {
+        font-size: 2.2vw;
+    }
+  
+    .container-home .backlighting-home {
+      left: 22.5%;
+    }
+  }
+  
+  @media (max-width: 385px) {
+  
+    .container-home .nav {
+      left: -30%;
+      top: 8%;
+    }
+    
+    .container-home .main button {
+      width: 25%;
+      height: 10%;
+      top: 60%;
+      left: 36%;
+    }
+
+    .container-home .main button a {
+        font-size: 1.5vw;
+        padding: 10px 0;
+    }
+  
+    .container-home .backlighting-home {
+      left: 22.2%;
+    }
+  }

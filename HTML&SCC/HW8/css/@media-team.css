@@ -1,0 +1,443 @@
+@media (max-width: 1550px) {
+  .container-team .backlighting-team:hover ~ .header-team .logo-team {
+    left: 34.5%;
+  }
+
+  .container-team .header-team .logo-team {
+    left: 34.5%;
+  }
+
+  .container-team .header-team .logo-subtitle {
+    left: 38.8%;
+  }
+}
+
+@media (max-width: 1300px) {
+  .container-team .backlighting-team:hover ~ .header-team .logo-team {
+    left: 31.5%;
+  }
+
+  .container-team .header-team .logo-team {
+    left: 31.5%;
+  }
+
+  .container-team .header-team .logo-subtitle {
+    left: 36.5%;
+  }
+}
+
+@media (max-width: 1100px) {
+  .container-team .backlighting-team:hover ~ .header-team .logo-team {
+    left: 28.5%;
+  }
+
+  .container-team .header-team .logo-team {
+    left: 28.5%;
+  }
+
+  .container-team .header-team .logo-subtitle {
+    left: 34.5%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container-team .backlighting-team:hover ~ .header-team .logo-team {
+    left: 28.5%;
+    top: 7.5%;
+    font-size: 180%;
+  }
+
+  .container-team .header-team .logo-team {
+    left: 28.5%;
+    top: 9%;
+    font-size: 180%;
+  }
+
+  .container-team .header-team .logo-subtitle {
+    left: 32.3%;
+    top: 13%;
+  }
+
+  .container-team .main-team .item-photo img {
+    transform: scale(0.8);
+  }
+
+  .container-team .main-team .item-name {
+    justify-content: space-between;
+    font-size: 100%;
+    width: 130%;
+    left: -14%;
+  }
+
+  .container-team .main-team .item-name span {
+    width: 33%;
+  }
+
+  .container-team .main-team .item-name-title {
+    justify-content: space-between;
+    font-size: 100%;
+    width: 130%;
+    left: -14%;
+  }
+
+  .container-team .main-team .item-name-title span {
+    width: 33%;
+  }
+
+  .container-team .main-team .global-social {
+    left: -10%;
+    width: 700px;
+  }
+
+  .container-team .main-team .global-social .global-social1 {
+    width: 30%;
+  }
+  .container-team .main-team .global-social .global-social2 {
+    width: 35%;
+  }
+
+  .container-team .main-team .global-social .global-social3 {
+    width: 35%;
+  }
+
+  .container-team .main-team .item-description {
+    margin-top: 15%;
+  }
+
+  .container-team .main-team .item-logos {
+    left: -8%;
+  }
+
+  .container-team .main-team .item-logos img {
+    transform: scale(0.8);
+  }
+
+  .container-team .main-team .item-logos .evanto img {
+    transform: scale(0.8);
+  }
+}
+
+@media (max-width: 775px) {
+  .container-team .backlighting-team:hover ~ .header-team .logo-team {
+    left: 24%;
+    top: 7.5%;
+    font-size: 180%;
+  }
+
+  .container-team .header-team .logo-team {
+    left: 24%;
+    top: 9%;
+    font-size: 180%;
+  }
+
+  .container-team .header-team .logo-subtitle {
+    left: 28.5%;
+    top: 13%;
+  }
+
+  .container-team .main-team .item-photo  {
+    transform: scale(0.6);
+
+  }
+
+  .container-team .main-team .item-name {
+    font-size: 80%;
+    width: 100%;
+    left: 0%;
+    top: -10%;
+  }
+
+  .container-team .main-team .item-name span {
+    width: 33%;
+  }
+
+  .container-team .main-team .item-name-title {
+    font-size: 80%;
+    width: 100%;
+    left: 0%;
+    top: -9%;
+  }
+
+  .container-team .main-team .item-name-title span {
+    width: 33%;
+  }
+
+  .container-team .main-team .global-social {
+    transform: scale(0.6);
+    left: -35%;
+    top: -10%;
+    width: 750px;
+  }
+
+  .container-team .main-team .global-social .global-social1 {
+    width: 35%;
+  }
+  .container-team .main-team .global-social .global-social2 {
+    width: 30%;
+  }
+
+  .container-team .main-team .global-social .global-social3 {
+    width: 35%;
+  }
+
+  .container-team .main-team .item-description {
+    margin-top: 15%;
+  }
+
+  .container-team .main-team .item-logos {
+    transform: scale(0.6);
+    left: -12%;
+  }
+  
+  .container-team .backlighting-team {
+    height: 15%;
+    top: 18%;
+}
+}
+
+@media (max-width: 645px) {
+    .container-team .backlighting-team:hover ~ .header-team .logo-team {
+      left: 24%;
+      top: 5.5%;
+      font-size: 145%;
+    }
+  
+    .container-team .header-team .logo-team {
+      left: 24%;
+      top: 7%;
+      font-size: 145%;
+    }
+  
+    .container-team .header-team .logo-subtitle {
+      left: 29%;
+      top: 10%;
+      font-size: 70%;
+    }
+  
+    .container-team .main-team .item-photo  {
+      transform: scale(0.6);
+  
+    }
+  
+    .container-team .main-team .item-name {
+      font-size: 80%;
+      width: 120%;
+      left: -10.5%;
+      top: -10%;
+    }
+  
+    .container-team .main-team .item-name span {
+      width: 33%;
+    }
+  
+    .container-team .main-team .item-name-title {
+      font-size: 80%;
+      width: 120%;
+      left: -10.5%;
+      top: -10%;
+    }
+  
+    .container-team .main-team .item-name-title span {
+      width: 33%;
+    }
+  
+    .container-team .main-team .global-social {
+      transform: scale(0.5);
+      left: -68%;
+      top: -10%;
+      width: 850px;
+    }
+  
+    .container-team .main-team .global-social .global-social1 {
+      width: 35%;
+    }
+    .container-team .main-team .global-social .global-social2 {
+      width: 35%;
+    }
+  
+    .container-team .main-team .global-social .global-social3 {
+      width: 30%;
+    }
+  
+    .container-team .main-team .item-description {
+      margin-top: 15%;
+    }
+  
+    .container-team .main-team .item-logos {
+      transform: scale(0.5);
+      left: -15%;
+    }
+    
+    .container-team .backlighting-team {
+      height: 15%;
+      top: 18%;
+  }
+  }
+
+  @media (max-width: 485px) {
+
+    .container-team {
+        height: 465px;
+    }
+
+    .container-team .backlighting-team:hover ~ .header-team .logo-team {
+      left: 24%;
+      top: 7.5%;
+      font-size: 110%;
+    }
+  
+    .container-team .header-team .logo-team {
+      left: 24%;
+      top: 9%;
+      font-size: 110%;
+    }
+  
+    .container-team .header-team .logo-subtitle {
+      left: 30.5%;
+      top: 14%;
+      font-size: 50%;
+    }
+  
+    .container-team .main-team .item-photo  {
+      transform: scale(0.4);
+  
+    }
+  
+    .container-team .main-team .item-name {
+      font-size: 60%;
+      width: 100%;
+      left: 0%;
+      top: -35%;
+    }
+  
+    .container-team .main-team .item-name span {
+      width: 33%;
+    }
+  
+    .container-team .main-team .item-name-title {
+      font-size: 60%;
+      width: 100%;
+      left: 0%;
+      top: -35%;
+    }
+  
+    .container-team .main-team .item-name-title span {
+      width: 33%;
+    }
+  
+    .container-team .main-team .global-social {
+      transform: scale(0.4);
+      left: -77%;
+      top: -40%;
+      width: 700px;
+    }
+  
+    .container-team .main-team .global-social .global-social1 {
+      width: 35%;
+    }
+    .container-team .main-team .global-social .global-social2 {
+      width: 30%;
+    }
+  
+    .container-team .main-team .global-social .global-social3 {
+      width: 35%;
+    }
+  
+    .container-team .main-team .item-description {
+      margin-top: 0%;
+      font-size: 40%;
+      top: -30%;
+    }
+  
+    .container-team .main-team .item-logos {
+      transform: scale(0.4);
+      left: -25%;
+      top: -35%;
+    }
+    
+    .container-team .backlighting-team {
+      height: 18%;
+      top: 35%;
+      left: 15%;
+      width: 70%;
+  }
+  }
+
+  @media (max-width: 385px) {
+
+    .container-team .backlighting-team:hover ~ .header-team .logo-team {
+      left: 20%;
+      top: 9%;
+      font-size: 110%;
+    }
+  
+    .container-team .header-team .logo-team {
+      left: 20%;
+      top: 11%;
+      font-size: 110%;
+    }
+  
+    .container-team .header-team .logo-subtitle {
+      left: 28%;
+      top: 16%;
+      font-size: 50%;
+    }
+  
+    .container-team .main-team .item-photo  {
+      transform: scale(0.3);
+  
+    }
+  
+    .container-team .main-team .item-name {
+      font-size: 50%;
+      width: 100%;
+      left: 0%;
+      top: -35%;
+    }
+  
+    .container-team .main-team .item-name span {
+      width: 33%;
+    }
+  
+    .container-team .main-team .item-name-title {
+      font-size: 50%;
+      width: 100%;
+      left: 0%;
+      top: -35%;
+    }
+  
+    .container-team .main-team .item-name-title span {
+      width: 33%;
+    }
+  
+    .container-team .main-team .global-social {
+      transform: scale(0.3);
+      left: -130%;
+      top: -40%;
+      width: 800px;
+    }
+  
+    .container-team .main-team .global-social .global-social1 {
+      width: 35%;
+    }
+    .container-team .main-team .global-social .global-social2 {
+      width: 25%;
+    }
+  
+    .container-team .main-team .global-social .global-social3 {
+      width: 40%;
+    }
+
+    .container-team .main-team .item-logos {
+      transform: scale(0.3);
+      left: -25%;
+      top: -35%;
+    }
+    
+    .container-team .backlighting-team {
+      height: 18%;
+      top: 35%;
+      left: 15%;
+      width: 70%;
+  }
+  }

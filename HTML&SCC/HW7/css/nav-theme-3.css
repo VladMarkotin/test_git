@@ -1,0 +1,175 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(226, 226, 226);
+}
+
+
+.nav-theme-3 {
+    max-width: 80%;
+    margin: auto;
+    width: 840px;
+    height: 45px;
+    margin-top:10px;
+    text-transform: uppercase;
+    
+}
+
+.nav-theme-3 ul {
+    position: relative;
+}
+
+.nav-theme-3 li {
+    display: inline-block;
+    background-color: white;   
+}
+
+.nav-theme-3 .list {
+    width: 80px;
+    height: 45px;
+    text-align: center;
+    vertical-align: top;
+    line-height: 45px;
+    font-size: 20px;
+    border-radius: 5px 0 0 5px;
+    
+}
+
+.nav-theme-3 .list_category {
+    width: 120px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 20px;
+    border-radius: 5px 5px 5px 5px;
+    display: block;
+    font-weight: bold;
+    text-transform: capitalize;  
+}
+
+.nav-theme-3 .list a {
+    margin: 0;
+    padding: 0;
+    display: block;
+    color: #9c9c9c; 
+    text-decoration: none;
+}
+
+.nav-theme-3 .list a:hover {
+    border-radius: 5px 0 0 5px; 
+    background-color: red;
+}
+
+.nav-theme-3 .list ul {
+    display: none; 
+}
+
+.nav-theme-3 .list:hover > ul {
+    display: block;
+}
+
+.nav-theme-3 .list ul li:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+.nav-theme-3 .home {
+    width: 135px;
+    height: 45px;
+    text-align: center;
+    vertical-align: top;
+    line-height: 45px;
+    font-size: 20px;
+    background: linear-gradient(to bottom, white 90%, #87b048 90%) ;
+    margin-left: -4px; 
+}
+
+.nav-theme-3 .home a {
+    color: #9c9c9c; 
+    text-decoration: none;
+    
+}
+
+.nav-theme-3 .about {
+    width: 135px;
+    height: 45px;
+    text-align: center;
+    vertical-align: top;
+    line-height: 45px;
+    font-size: 20px;
+    margin-left: -4px; 
+}
+
+.nav-theme-3 .about a {
+    color: #9c9c9c; 
+    text-decoration: none;
+}
+
+.nav-theme-3 .service {
+    width: 135px;
+    height: 45px;
+    text-align: center;
+    vertical-align: top;
+    line-height: 45px;
+    font-size: 20px;
+    margin-left: -4px; 
+}
+
+.nav-theme-3 .service a {
+    color: #9c9c9c; 
+    text-decoration: none;
+}
+
+.nav-theme-3 .contact {
+    width: 135px;
+    height: 45px;
+    text-align: center;
+    vertical-align: top;
+    line-height: 45px;
+    font-size: 20px;
+    margin-left: -4px; 
+}
+
+.nav-theme-3 .contact a {
+    color: #9c9c9c; 
+    text-decoration: none;
+}
+
+    .nav-theme-3 .form {
+    height: 45px;
+    margin-left: -4px;
+    background-color: white; 
+} 
+
+.nav-theme-3 .form .scan {
+    width: 160px;
+    height: 25px;
+    text-align: center;
+    vertical-align: middle; 
+    background-color: #ececec; 
+    border: none;
+}
+
+.nav-theme-3 .form .scan:focus {
+    background-color: #ececec;
+}
+
+.nav-theme-3 .form .find {
+    width: 50px;
+    height: 45px;
+    margin-right: -1.9px; 
+    background-color: white;  
+    border-radius: 0 5px 5px 0;  
+    position: relative;
+    cursor: pointer;
+    border: 0px;
+} 
+
+.nav-theme-3 .form .find img {
+    position: absolute;
+    top: calc(50% - 11px);
+    right: 16px;  
+}

@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(226, 226, 226);
+}
+
+
+.nav {
+    max-width: 80%;
+    margin: auto;
+    width: 840px;
+    height: 45px;
+    margin-top:10px;
+    text-transform: uppercase;
+    
+}
+
+.nav ul {
+    position: relative;
+}
+
+.nav li {
+    display: inline-block;
+    background-color: #5e7c36;   
+}
+
+.nav .list {
+    width: 80px;
+    height: 45px;
+    text-align: center;
+    vertical-align: top;
+    line-height: 45px;
+    font-size: 20px;
+    border-radius: 5px 0 0 5px;
+    
+}
+
+.nav .list_category {
+    width: 120px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 20px;
+    border-radius: 5px 5px 5px 5px;
+    display: block;
+    font-weight: bold;
+    text-transform: capitalize;  
+}
+
+.nav .list a {
+    margin: 0;
+    padding: 0;
+    display: block;
+    color: white; 
+    text-decoration: none;
+}
+
+.nav .list a:hover {
+    border-radius: 5px 0 0 5px; 
+    background-color: red;
+}
+
+.nav .list ul {
+    display: none; 
+}
+
+.nav .list:hover > ul {
+    display: block;
+}
+
+.nav .list ul li:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+.nav .home {
+    width: 135px;
+    height: 45px;
+    text-align: center;
+    vertical-align: top;
+    line-height: 45px;
+    font-size: 20px;
+    background-color: #87b04a;
+    margin-left: -4px; 
+}
+
+.nav .home a {
+    color: white; 
+    text-decoration: none;
+    
+}
+
+.nav .about {
+    width: 135px;
+    height: 45px;
+    text-align: center;
+    vertical-align: top;
+    line-height: 45px;
+    font-size: 20px;
+    margin-left: -4px; 
+}
+
+.nav .about a {
+    color: white; 
+    text-decoration: none;
+}
+
+.nav .service {
+    width: 135px;
+    height: 45px;
+    text-align: center;
+    vertical-align: top;
+    line-height: 45px;
+    font-size: 20px;
+    margin-left: -4px; 
+}
+
+.nav .service a {
+    color: white; 
+    text-decoration: none;
+}
+
+.nav .contact {
+    width: 135px;
+    height: 45px;
+    text-align: center;
+    vertical-align: top;
+    line-height: 45px;
+    font-size: 20px;
+    margin-left: -4px; 
+}
+
+.nav .contact a {
+    color: white; 
+    text-decoration: none;
+}
+
+    .nav .form {
+    height: 45px;
+    background-color: white;
+} 
+
+.nav .form .scan {
+    width: 160px;
+    height: 45px;
+    text-align: center;
+    vertical-align: top;
+    line-height: 45px;
+    font-size: 20px;
+    margin-left: -4px;
+    background-color: #5e7c36; 
+    border: none;
+}
+
+.nav .form .scan:focus {
+    background-color: red;
+}
+
+.nav .form .find {
+    width: 50px;
+    height: 45px;
+    margin-left: -4px; 
+    border: 0px;  
+    background-color: #5e7c36;  
+    border-radius: 0 5px 5px 0; 
+    list-style: none;
+    position: relative;
+    cursor: pointer;
+} 
+
+.nav .form .find img {
+    position: absolute;
+    top: calc(50% - 11px);
+    right: 16px;  
+}

@@ -1,0 +1,59 @@
+.form {
+	background: radial-gradient(circle closest-side at 1700px 150px, lightCyan, greenYellow);
+	opacity: 0.2;
+}
+.form:hover {
+	background: linear-gradient(to left, yellow, #00FF00 55%, #00FFFF);
+	font-size:  20px;
+	color: red;
+	font-weight: bold;
+	opacity: 0.8;
+}
+.form:hover .legend {
+	color: black;
+	font-size: 24px;
+	text-shadow: 0 0 5px goldenrod;
+} 
+.field:hover {
+	background: linear-gradient(-45deg,  #D8BFD8 50% , rgba(221, 160, 221, 0.6) 50%);
+	background-size: 10%, 10%;
+	color: black;
+	font-weight: 900
+}
+.field:hover::-moz-placeholder {
+		color: #0000FF;
+		font-weight: 700;
+	}
+.field:hover::-webkit-input-placeholder {
+		color: #0000FF;
+		font-weight: 700 ;
+	}
+.field:hover:-ms-input-placeholder {
+		color: #0000FF;
+		font-weight: 700;
+	}
+.date:hover {
+	color: #0000FF;
+	font-weight: 700;
+	opacity: 1;
+}
+.select:hover {
+	background-color: rgba(221, 160, 221, 0.6);
+	opacity: 1;
+}
+.label:hover {
+	background-color: red !important;
+}
+.textarea {
+	font-size: 20px;
+	opacity: 1;
+}
+.textarea:hover {
+	background: linear-gradient(to top right, #FFFF00, #FF4500);
+	font-size:  24px;
+}
+.body {
+	background: url(resume.jpg) no-repeat center center ;
+}
+
+

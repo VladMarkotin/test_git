@@ -1,0 +1,473 @@
+@media (max-width: 1550px) {
+  .container-about .main-about .name-left .item-description {
+    font-size: 80%;
+  }
+
+  .container-about .main-about .name-right .item-description {
+    font-size: 80%;
+  }
+
+  .container-about .main-about .name-left .item-title {
+    margin-top: 82%;
+  }
+
+  .container-about .main-about .name-right .item-title {
+    margin-top: 80%;
+  }
+
+  .container-about .main-about .item-picture .story {
+    top: 84.5%;
+  }
+
+  .container-about .backlighting-about {
+    width: 6%;
+    left: 76%;
+  }
+}
+
+@media (max-width: 1300px) {
+  .container-about .header-about .logo-about {
+    left: 40%;
+    top: 7.5%;
+  }
+
+  .container-about .header-about .logo-subtitle {
+    left: 36%;
+    top: 10.5%;
+  }
+
+  .container-about .main-about .name-left .item-title {
+    font-size: 100%;
+    margin-top: 107%;
+  }
+
+  .container-about .main-about .name-left .item-title:first-child {
+    font-size: 100%;
+  }
+
+  .container-about .main-about .name-left .item-description {
+    font-size: 70%;
+  }
+
+  .container-about .main-about .name-right .item-title:first-child {
+    font-size: 100%;
+    margin-top: 68%;
+  }
+
+  .container-about .main-about .name-right .item-title {
+    font-size: 100%;
+    margin-top: 104%;
+  }
+
+  .container-about .main-about .name-right .item-description {
+    font-size: 70%;
+  }
+
+  .container-about .main-about .item-picture .story {
+    top: 83%;
+    left: 44.5%;
+  }
+
+  .container-about .backlighting-about {
+    width: 6%;
+    left: 78.5%;
+  }
+}
+
+@media (max-width: 1100px) {
+  .container-about .backlighting-about:hover ~ .header-about .logo-about {
+    top: 6%;
+  }
+
+  .container-about .header-about .logo-about {
+    left: 38.5%;
+    top: 6.8%;
+  }
+
+  .container-about .header-about .logo-subtitle {
+    left: 34%;
+    top: 9.5%;
+  }
+
+  .container-about .main-about .name-left .item-title {
+    font-size: 90%;
+    margin-top: 132%;
+  }
+
+  .container-about .main-about .name-left .item-title:first-child {
+    font-size: 90%;
+  }
+
+  .container-about .main-about .name-left .item-description {
+    font-size: 60%;
+  }
+
+  .container-about .main-about .name-right .item-title:first-child {
+    font-size: 90%;
+    margin-top: 83%;
+  }
+
+  .container-about .main-about .name-right .item-title {
+    font-size: 90%;
+    margin-top: 128%;
+  }
+
+  .container-about .main-about .name-right .item-description {
+    font-size: 60%;
+  }
+
+  .container-about .main-about .item-picture .story {
+    top: 82.5%;
+    left: 44.8%;
+    font-size: 90%;
+  }
+
+  .container-about .backlighting-about {
+    width: 6%;
+    left: 78.5%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container-about .backlighting-about:hover ~ .header-about .logo-about {
+    top: 5%;
+  }
+
+  .container-about .header-about .logo-about {
+    left: 40.2%;
+    top: 6%;
+    font-size: 160%;
+  }
+
+  .container-about .header-about .logo-subtitle {
+    left: 35.8%;
+    top: 8%;
+    font-size: 70%;
+  }
+
+  .container-about .main-about .name-left .item-title {
+    font-size: 80%;
+    margin-top: 159%;
+  }
+
+  .container-about .main-about .name-left .item-title:first-child {
+    font-size: 80%;
+  }
+
+  .container-about .main-about .name-left .item-description {
+    font-size: 50%;
+  }
+
+  .container-about .main-about .name-right .item-title:first-child {
+    font-size: 80%;
+    margin-top: 96%;
+  }
+
+  .container-about .main-about .name-right .item-title {
+    font-size: 80%;
+    margin-top: 155%;
+  }
+
+  .container-about .main-about .name-right .item-description {
+    font-size: 50%;
+  }
+
+  .container-about .main-about .item-picture .story {
+    top: 81.7%;
+    left: 44.8%;
+    font-size: 80%;
+  }
+
+  .container-about .backlighting-about {
+    width: 7%;
+    left: 73.5%;
+  }
+}
+
+@media (max-width: 775px) {
+  .container-about .backlighting-about:hover ~ .header-about .logo-about {
+    top: 4%;
+  }
+
+  .container-about .header-about .logo-about {
+    left: 39.5%;
+    top: 5%;
+    font-size: 140%;
+  }
+
+  .container-about .header-about .logo-subtitle {
+    left: 35%;
+    top: 7%;
+    font-size: 60%;
+  }
+
+  .container-about .main-about .name-left .item-title {
+    font-size: 70%;
+    margin-top: 211%;
+  }
+
+  .container-about .main-about .name-left .item-title:first-child {
+    font-size: 70%;
+  }
+
+  .container-about .main-about .name-left .item-description {
+    font-size: 40%;
+  }
+
+  .container-about .main-about .name-right .item-title:first-child {
+    font-size: 70%;
+    margin-top: 123%;
+  }
+
+  .container-about .main-about .name-right .item-title {
+    font-size: 70%;
+    margin-top: 207%;
+  }
+
+  .container-about .main-about .name-right .item-description {
+    font-size: 40%;
+  }
+
+  .container-about .main-about .item-picture .story {
+    top: 81%;
+    left: 44.5%;
+    font-size: 65%;
+  }
+
+  .container-about .backlighting-about {
+    width: 6%;
+    left: 76.5%;
+  }
+}
+
+@media (max-width: 645px) {
+  .header-fixed {
+    height: 50px;
+  }
+
+  .header-fixed:hover {
+    height: 50px;
+  }
+
+  .header-fixed .logo {
+    top: 25%;
+  }
+
+  .header-fixed:hover .logo {
+    top: 25%;
+  }
+
+  .header-fixed .nav {
+    top: 28%;
+  }
+
+  .container-about .backlighting-about:hover ~ .header-about .logo-about {
+    top: 3.4%;
+  }
+
+  .container-about .header-about .logo-about {
+    left: 40.5%;
+    top: 4%;
+    font-size: 110%;
+  }
+
+  .container-about .header-about .logo-subtitle {
+    left: 35.5%;
+    top: 5.5%;
+    font-size: 50%;
+  }
+
+  .container-about .main-about .name-left .item-title {
+    font-size: 60%;
+    margin-top: 265%;
+  }
+
+  .container-about .main-about .name-left .item-title:first-child {
+    font-size: 60%;
+  }
+
+  .container-about .main-about .name-left .item-description {
+    font-size: 5px;
+  }
+
+  .container-about .main-about .name-right .item-title:first-child {
+    font-size: 60%;
+    margin-top: 149%;
+  }
+
+  .container-about .main-about .name-right .item-title {
+    font-size: 60%;
+    margin-top: 261%;
+  }
+
+  .container-about .main-about .name-right .item-description {
+    font-size: 5px;
+  }
+
+  .container-about .main-about .item-picture .story {
+    top: 80.5%;
+    left: 44.5%;
+    font-size: 55%;
+  }
+
+  .container-about .backlighting-about {
+    width: 6.5%;
+    left: 75.4%;
+  }
+}
+
+@media (max-width: 485px) {
+
+  .header-fixed {
+    height: 40px;
+  }
+
+  .header-fixed:hover {
+    height: 40px;
+  }
+
+  .header-fixed .logo {
+    top: 35%;
+  }
+
+  .header-fixed:hover .logo {
+    top: 35%;
+  }
+
+  .header-fixed .nav {
+    top: 18%;
+    left: 45%;
+  }
+
+  .header-fixed ul a {
+    font-size: 4px;
+  }
+  .header-fixed:hover ul a {
+    font-size: 4px;
+  }
+
+  .header-fixed .nav li a:hover {
+    border-bottom: 0.15vw solid #fed136;
+  }
+
+  .container-about .backlighting-about:hover ~ .header-about .logo-about {
+    top: 2.4%;
+  }
+
+  .container-about .header-about .logo-about {
+    left: 40%;
+    top: 3%;
+    font-size: 90%;
+  }
+
+  .container-about .header-about .logo-subtitle {
+    left: 34.8%;
+    top: 4.2%;
+    font-size: 40%;
+  }
+
+  .container-about .main-about .name-left .item-title {
+    font-size: 50%;
+    margin-top: 367%;
+  }
+
+  .container-about .main-about .name-left .item-title:first-child {
+    font-size: 50%;
+  }
+
+  .container-about .main-about .name-left .item-description {
+    font-size: 4px;
+  }
+
+  .container-about .main-about .name-right .item-title:first-child {
+    font-size: 50%;
+    margin-top: 201%;
+  }
+
+  .container-about .main-about .name-right .item-title {
+    font-size: 50%;
+    margin-top: 363%;
+  }
+
+  .container-about .main-about .name-right .item-description {
+    font-size: 4px;
+  }
+
+  .container-about .main-about .item-picture .story {
+    top: 79.7%;
+    left: 44%;
+    font-size: 45%;
+  }
+
+  .container-about .backlighting-about {
+    width: 6%;
+    left: 76.4%;
+  }
+}
+
+
+@media (max-width: 385px) {
+
+  .container-about {
+    height: 835px;
+}
+
+  .header-fixed .nav {
+    left: 35%;
+  }
+
+  .container-about .backlighting-about:hover ~ .header-about .logo-about {
+    top: 4.8%;
+  }
+
+  .container-about .header-about .logo-about {
+    left: 40%;
+    top: 5.8%;
+    font-size: 80%;
+  }
+
+  .container-about .header-about .logo-subtitle {
+    left: 33.5%;
+    top: 7.8%;
+    font-size: 6px;
+  }
+
+  .container-about .main-about .name-left .item-title {
+    font-size: 40%;
+    margin-top: 210%;
+  }
+
+  .container-about .main-about .name-left .item-title:first-child {
+    font-size: 40%;
+  }
+
+  .container-about .main-about .name-left .item-description {
+    font-size: 3px;
+  }
+
+  .container-about .main-about .name-right .item-title:first-child {
+    font-size: 40%;
+    margin-top: 123%;
+  }
+
+  .container-about .main-about .name-right .item-title {
+    font-size: 40%;
+    margin-top: 206%;
+  }
+
+  .container-about .main-about .name-right .item-description {
+    font-size: 3px;
+  }
+
+  .container-about .main-about .item-picture .story {
+    top: 82%;
+    left: 44.8%;
+    font-size: 5px;
+  }
+
+  .container-about .backlighting-about {
+    width: 7%;
+    left: 73.5%;
+  }
+}
+

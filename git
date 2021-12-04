@@ -1,0 +1,157 @@
+[1mdiff --git a/css/style.css b/css/style.css[m
+[1mindex 0288e72..ff78a6a 100644[m
+[1m--- a/css/style.css[m
+[1m+++ b/css/style.css[m
+[36m@@ -3,139 +3,3 @@[m
+     padding: 0;[m
+ }[m
+ [m
+[31m-.header,[m
+[31m-.main,[m
+[31m-.footer {[m
+[31m-    padding: 30px;[m
+[31m-}[m
+[31m-[m
+[31m-.header {[m
+[31m-    background-color: #ededed;[m
+[31m-}[m
+[31m-[m
+[31m-body {[m
+[31m-    font-family: Arial, Helvetica, sans-serif;[m
+[31m-    font-size: 18px;[m
+[31m-    line-height: 26px;[m
+[31m-}[m
+[31m-[m
+[31m-h1 {[m
+[31m-    margin-bottom: 40px;[m
+[31m-    line-height: 42px;[m
+[31m-}[m
+[31m-[m
+[31m-p {[m
+[31m-    margin-bottom: 20px;[m
+[31m-}[m
+[31m-[m
+[31m-.container {[m
+[31m-    width: 80%;[m
+[31m-    max-width: 1280px;[m
+[31m-    margin-left: auto;[m
+[31m-    margin-right: auto;[m
+[31m-}[m
+[31m-[m
+[31m-.align-left {[m
+[31m-    float: left;[m
+[31m-    margin-right: 20px;[m
+[31m-    margin-bottom: 20px;[m
+[31m-}[m
+[31m-[m
+[31m-.header .logo img {[m
+[31m-    width: 200px;[m
+[31m-    overflow: hidden;[m
+[31m-}[m
+[31m-[m
+[31m-.header .logo,[m
+[31m-.header .contacts {[m
+[31m-    display: inline-block;[m
+[31m-    vertical-align: middle;[m
+[31m-}[m
+[31m-[m
+[31m-.header .contacts {[m
+[31m-    /* margin-left: 40px; */[m
+[31m-    float: right;[m
+[31m-    text-align: right;[m
+[31m-}[m
+[31m-[m
+[31m-.header .contacts h3 {[m
+[31m-    text-transform: uppercase;[m
+[31m-    margin-bottom: 20px;[m
+[31m-}[m
+[31m-[m
+[31m-.header .contacts p {[m
+[31m-    margin-bottom: 0;[m
+[31m-}[m
+[31m-[m
+[31m-.header .contacts p span {[m
+[31m-    font-size: 24px;[m
+[31m-    font-weight: bold;[m
+[31m-}[m
+[31m-[m
+[31m-.navigation {[m
+[31m-    background-color: lightgreen;[m
+[31m-}[m
+[31m-[m
+[31m-.navigation ul {[m
+[31m-    list-style-type: none;[m
+[31m-}[m
+[31m-[m
+[31m-.navigation li {[m
+[31m-    display: inline-block;[m
+[31m-}[m
+[31m-[m
+[31m-.navigation a {[m
+[31m-    display: inline-block;[m
+[31m-    font-weight: bold;[m
+[31m-    color: #000;[m
+[31m-    text-decoration: none;[m
+[31m-    text-transform: uppercase;[m
+[31m-    padding: 20px 30px;[m
+[31m-}[m
+[31m-[m
+[31m-.navigation a:hover {[m
+[31m-    background-color: rgb(64, 192, 64);[m
+[31m-    color:rgb(20, 29, 20);[m
+[31m-}[m
+[31m-[m
+[31m-.main .gallery_list {[m
+[31m-    background-color: #ededed;[m
+[31m-    padding: 20px 20px 20px 24px;[m
+[31m-}[m
+[31m-[m
+[31m-.main .gallery_list img {[m
+[31m-    display: inline-block;[m
+[31m-    width: calc(25% - 4px - 20px);[m
+[31m-    margin: 10px;[m
+[31m-}[m
+[31m-[m
+[31m-.main .contact_form .field {[m
+[31m-    margin-bottom: 20px;[m
+[31m-}[m
+[31m-[m
+[31m-.main .contact_form input {[m
+[31m-    padding: 10px 20px;[m
+[31m-    font-size: 18px;[m
+[31m-}[m
+[31m-[m
+[31m-.main .contact_form .button {[m
+[31m-    text-transform: uppercase;[m
+[31m-    font-size: 18px;[m
+[31m-    background-color: green;[m
+[31m-    color: #fff;[m
+[31m-    border: 0;[m
+[31m-    padding: 10px 20px;[m
+[31m-    cursor: pointer;[m
+[31m-}[m
+[31m-[m
+[31m-.footer {[m
+[31m-    background-color: #333;[m
+[31m-    color: #fff;[m
+[31m-    text-align: center;[m
+[31m-}[m
+[31m-[m
+[31m-.footer p {[m
+[31m-    clear: both;[m
+[31m-}[m
+[31m-[m
+[31m-[m
+[1mdiff --git a/page1.html b/page1.html[m
+[1mindex 420e125..3ffe061 100644[m
+[1m--- a/page1.html[m
+[1m+++ b/page1.html[m
+[36m@@ -4,7 +4,7 @@[m
+     <meta charset="UTF-8">[m
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">[m
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">[m
+[31m-    <title>Page 1</title>[m
+[32m+[m[32m    <title>Page</title>[m
+     <style>[m
+         * {[m
+             margin: 0;[m

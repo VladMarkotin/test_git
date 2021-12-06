@@ -2,3 +2,21 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background: rgb(83, 67, 67);
+}
+.text{
+    display: flex;
+}
+.text-content{
+    background: rgb(209, 193, 193);
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 20%;
+    padding: 20px;
+    border-radius: 8px;
+}   
+.text-content p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

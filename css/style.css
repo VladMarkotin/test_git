@@ -2,3 +2,53 @@
     margin: 0;
     padding: 0;
 }
+footer {
+    background-color: #000;
+    height: 180px;
+    font-size: 14px;
+  }
+  .footer p {
+    color: #fff;
+  }
+  .f_content {
+    display: flex;
+    text-align: center;
+    height: 180px;
+    justify-content: center;
+    
+  }
+  .f_content ul {
+    display: flex;
+    list-style: none;
+    color: #fff;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+  }
+  .f_content img {
+      margin-top: 55px;
+    text-align: center;
+    height: 45px;
+  }
+  .f_content p {
+    margin-left: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 0px;
+    color: #818181;
+   
+  }
+  .f_content a {
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+    padding: 0 30px;
+    
+  }
+  .f_text1,
+  .f_text2,
+  .f_text3 {
+    text-align: center;
+    float: left;
+  }
+  

@@ -2,3 +2,34 @@
     margin: 0;
     padding: 0;
 }
+footer {
+	border: 1px solid;
+}
+footer .footer-menu{
+    width: 35%;
+    position: relative;
+    display: inline-block;
+    text-align: left;
+
+}
+footer .copyright{
+    width: 30%;
+    position: relative;
+    display: inline-block;
+    text-align: right;
+    overflow: hidden;
+}
+footer  ul{
+    padding: 0;
+}
+footer li{
+    padding-right: 5%;
+    position: relative;
+    display: inline-block;
+    list-style-type: none;
+
+}
+footer  a{
+    text-decoration: none;
+    font-size: 14px;
+}

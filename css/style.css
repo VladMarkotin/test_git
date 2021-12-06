@@ -2,3 +2,69 @@
     margin: 0;
     padding: 0;
 }
+
+.footer-contact {
+    max-width: 1280px;
+    width: 80%; 
+    height: 200px;
+    background-color: #222222;
+    margin: auto;
+    padding: auto;
+    position: relative;
+    margin-top: 10px;
+}
+
+.footer-contact .copyright {
+    font-family: 'Roboto Slab', serif;
+    font-size: 80%;
+    font-weight: 400;
+    color: red;
+    padding-top: 11.5%;
+    margin-left: 18%;
+    
+}
+
+.item-social {
+    position: absolute;
+    left: 45%;
+    top: 70%;
+    z-index:3;
+}
+
+.social {
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+}
+
+.footer-contact .tw {
+    background-image: url(https://via.placeholder.com/40/red);
+}
+
+.footer-contact .fc {
+    background-image: url(https://via.placeholder.com/40/red);
+}
+
+.footer-contact .p {
+    background-image: url(https://via.placeholder.com/40/red);
+}
+
+.footer-contact .g {
+    background-image: url(https://via.placeholder.com/40/red);
+}
+
+.footer-contact .tw:hover {
+    background-image: url(https://via.placeholder.com/40/green);
+}
+
+.footer-contact .fc:hover {
+    background-image: url(https://via.placeholder.com/40/green);
+}
+
+.footer-contact .p:hover {
+    background-image: url(https://via.placeholder.com/40/green);
+}
+
+.footer-contact .g:hover {
+    background-image: url(https://via.placeholder.com/40/green);
+}

@@ -2,18 +2,18 @@
     margin: 0;
     padding: 0;
 }
+.body {
+    background-color: #ededed;
+}
 .wrapper {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    height: 700px;
+    height: 700px;   
 }
 .menu {
     display: flex;
     justify-content: end;
-}
-.prom {
-   
 }
 ul li {
     font-size: 20px;
@@ -25,4 +25,16 @@ ul li a {
    
     text-decoration: none;
     color: #000;
+}
+.prom h3 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 15%;
+}
+.prom p {
+    font-size: 24px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 10%;
 }

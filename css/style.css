@@ -1,4 +1,22 @@
 *{
     margin: 0;
     padding: 0;
+    text-align: center;
+
 }
+ .main_img H2 {
+     font-size: 32px;
+
+ }
+
+ .main_img p {
+     font-size: 16px;
+ }
+ .main_img button {
+     height: 40px;
+     width: 124px;
+     background-color: #000000;
+     color: #ffffff;
+     margin-top: 8px;
+ }
+

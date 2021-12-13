@@ -1,0 +1,127 @@
+Index: Homework_JS_2/task5.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Homework_JS_2/task5.html b/Homework_JS_2/task5.html
+--- a/Homework_JS_2/task5.html	(revision 5fe03fb4420570fbbf4251c1a114f05509dd64b6)
++++ b/Homework_JS_2/task5.html	(date 1639342785678)
+@@ -1,0 +1,26 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <title>Task5</title>
++</head>
++<body>
++<script>
++    var a = 10;
++    var b =2;
++    var sum = a+b;
++    document.write ('Сумма =', + sum);
++    var dif = a-b;
++    document.write ('Разность =', + dif);
++    var com = a*b;
++    document.write ('Произведение =', + com);
++    var priv = a/b;
++    document.write ('Частное =', + priv);
++
++    if (sum > 1)  {
++        sqa = sum ** 2;
++        document.write ('Квадрат суммы =', + sqa);
++    }
++</script>
++</body>
++</html>
+\ No newline at end of file
+Index: Homework_JS_2/js/Task4.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Homework_JS_2/js/Task4.js b/Homework_JS_2/js/Task4.js
+--- a/Homework_JS_2/js/Task4.js	(revision 5fe03fb4420570fbbf4251c1a114f05509dd64b6)
++++ b/Homework_JS_2/js/Task4.js	(date 1639341513610)
+@@ -1,0 +1,7 @@
++let a = prompt("Введите число",);
++if (a>0){
++    alert('Верно');
++}
++else {
++    alert('Неверно');
++}
+\ No newline at end of file
+Index: ClassroomWork1/index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Test Git</title>\n    <link rel=\"stylesheet\" href=\"css/style.css\">\n</head>\n<body>\n  <header>\n      Header\n  </header>\n  <main>\n     <div class=\"main_img\">\n        <img src=\"img/\uD83D\uDCF7 Image.png\">\n         <h2>Вкусные суши</h2>\n         <p>Большой выбор и бесплатноя доставка!</p>\n         <button>Жми</button>\n         </div>\n  </main>\n  <footer>\n      Footer\n  </footer>\n</body>\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ClassroomWork1/index.html b/ClassroomWork1/index.html
+--- a/ClassroomWork1/index.html	(revision 5fe03fb4420570fbbf4251c1a114f05509dd64b6)
++++ b/ClassroomWork1/index.html	(date 1639299522230)
+@@ -11,7 +11,7 @@
+   </header>
+   <main>
+      <div class="main_img">
+-        <img src="img/📷 Image.png">
++        <img src="img/📷%20Image.png">
+          <h2>Вкусные суши</h2>
+          <p>Большой выбор и бесплатноя доставка!</p>
+          <button>Жми</button>
+Index: Homework_JS_2/js/task1.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Homework_JS_2/js/task1.js b/Homework_JS_2/js/task1.js
+--- a/Homework_JS_2/js/task1.js	(revision 5fe03fb4420570fbbf4251c1a114f05509dd64b6)
++++ b/Homework_JS_2/js/task1.js	(date 1639339080838)
+@@ -1,0 +1,12 @@
++let name = prompt("Ваше имя",);
++let age = prompt("Ваш возраст",);
++let city = prompt("город проживания",);
++let phone = prompt("телефон",);
++let email = prompt("Электронная почта",);
++let company = prompt("Место работы",);
++
++
++
++alert('Меня зовут ' + name + '. Мне ' + age + '. Я проживаю в ' + city + ' и работаю в компании ' + company + '. Мои контактные данные: '+ phone + ' '+email);
++window.name = name;
++window.age = age;
+\ No newline at end of file
+Index: Homework_JS_2/task4.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Homework_JS_2/task4.html b/Homework_JS_2/task4.html
+--- a/Homework_JS_2/task4.html	(revision 5fe03fb4420570fbbf4251c1a114f05509dd64b6)
++++ b/Homework_JS_2/task4.html	(date 1639341443899)
+@@ -1,0 +1,10 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <title>Task4</title>
++</head>
++<body>
++<script src="js/task4.js"></script>
++</body>
++</html>
+\ No newline at end of file
+Index: Homework_JS_2/js/task2.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Homework_JS_2/js/task2.js b/Homework_JS_2/js/task2.js
+--- a/Homework_JS_2/js/task2.js	(revision 5fe03fb4420570fbbf4251c1a114f05509dd64b6)
++++ b/Homework_JS_2/js/task2.js	(date 1639339194379)
+@@ -1,0 +1,4 @@
++let Year =  new Date();
++Year = Year.getFullYear();
++let BirthYear = Year-window.age;
++document.write (window.name + ' родился в ' + BirthYear + ' году.');
